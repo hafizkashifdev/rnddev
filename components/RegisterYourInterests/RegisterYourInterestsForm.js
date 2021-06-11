@@ -2,7 +2,7 @@ import React from 'react';
 import axios from "axios";
 import CountryCode from "./CountryCode";
 
-const ContactForm = () => {
+const RegisterYourInterestsForm = () => {
     const registerUser = async event => {
         event.preventDefault()
         axios.post("https://monday.musikheist.com/contact/savecontact", {
@@ -100,10 +100,14 @@ const ContactForm = () => {
                                             <input type="text" name="companydesignation" className="form-control" id="companydesignation" placeholder="Company Designation" maxLength="100" />
                                         </div>
                                     </div>
-
-                                    <div className="col-lg-12 col-md-12">
+                                    <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <textarea name="message" id="message" className="form-control" cols="30" rows="6" placeholder="Write your message... *" required maxLength="2000"></textarea>
+                                            <select name="type" className="form-control" id="type" required>
+                                                <option value="">Select your Type *</option>
+                                                <option value="Vendor">Vendor</option>
+                                                <option value="Customer">Customer</option>
+                                               
+                                            </select>
                                         </div>
                                     </div>
 
@@ -124,4 +128,4 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;
+export default RegisterYourInterestsForm;
