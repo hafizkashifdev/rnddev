@@ -6,17 +6,21 @@ const ContactForm = () => {
     const registerUser = async event => {
         event.preventDefault()
         axios.post("https://monday.musikheist.com/contact/savecontact", {
-            Name: event.target.name.value,
-            Email: event.target.email.value,
-            Phone: event.target.phone_number.value,
-            Comments: event.target.message.value,
-            board: 1365077261
+                Title: event.target.title.value,
+                FirstName: event.target.firstname.value,
+                LastName: event.target.lastname.value,
+                Company: event.target.company.value,
+                CompanyDesignation: event.target.companydesignation.value,
+                Phone: event.target.phone_number.value,
+                Email: event.target.email.value,
+                Comments: event.target.message.value,
+                board: 1377220002
 
         }).then((data) => {
-            event.target.name.value = '';
-            event.target.email.value = '';
-            event.target.phone_number.value = '';
-            event.target.message.value = '';
+            // event.target.name.value = '';
+            // event.target.email.value = '';
+            // event.target.phone_number.value = '';
+            // event.target.message.value = '';
             alert('Sucssfully saved');
 
         })

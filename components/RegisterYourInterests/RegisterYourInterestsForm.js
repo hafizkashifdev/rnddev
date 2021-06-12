@@ -5,20 +5,19 @@ import CountryCode from "./CountryCode";
 const RegisterYourInterestsForm = () => {
     const registerUser = async event => {
         event.preventDefault()
-        axios.post("https://monday.musikheist.com/contact/savecontact", {
-            Name: event.target.name.value,
-            Email: event.target.email.value,
-            Phone: event.target.phone_number.value,
-            Comments: event.target.message.value,
-            board: 1365077261
+        axios.post("https://monday.musikheist.com/contact/saveinterset", {
+             Title: event.target.title.value,
+             FirstName: event.target.firstname.value,
+             LastName: event.target.lastname.value,
+             Company: event.target.company.value,
+             CompanyDesignation: event.target.companydesignation.value,
+             Phone: event.target.phone_number.value,
+             Email: event.target.email.value,
+             Type: event.target.type.value,
+             board: 1377220525
 
         }).then((data) => {
-            event.target.name.value = '';
-            event.target.email.value = '';
-            event.target.phone_number.value = '';
-            event.target.message.value = '';
             alert('Sucssfully saved');
-
         })
     }
     return (
@@ -115,7 +114,7 @@ const RegisterYourInterestsForm = () => {
                                     <div className="col-lg-12 col-md-12">
                                         <button type="submit" className="default-btn">
                                             <i className="flaticon-tick"></i>
-                                            Send Message <span></span>
+                                            Register Interset <span></span>
                                         </button>
                                     </div>
                                 </div>
