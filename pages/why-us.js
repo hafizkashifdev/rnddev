@@ -2,17 +2,19 @@ import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
- 
+import WhyUsContent from '../components/WhyUs/WhyUsContent';
+
 const WhatWeDo = () => {
     return (
         <>
             <Navbar />
             <PageBanner
-                pageTitle="What We Do" 
+                pageTitle="Why Us" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="What We Do" 
-            />                 
+                activePageText="Why Us" 
+            />               
+            <WhyUsContent />  
             <Footer />
         </>
     );
