@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import axios from "axios";
 import CountryInfo from "./CountryCode";
 import { mondaymicrourl, airtablemicrourl , twilliotablemicrourl, emailhtml, emailtitle, contactUstable, AirTableBase, ContactBoardId, RYIBoardId, RYItable} from "../../constants/constant";
+import ErrorInfo from "./ErrorInfo";
+import SuccessInfo from "./SuccessInfo";
 const RegisterYourInterestsForm = () => {
     const [response, setresponse]= useState('')
      const registerUser = async event => {
@@ -63,6 +65,9 @@ const RegisterYourInterestsForm = () => {
                    {/*  <h2>Ready to Get Started?</h2> */}
                     <p>Your email address will not be published. Required fields are marked *</p>
                 </div>
+
+                {/*  <SuccessInfo />
+                <ErrorInfo />  */}
 
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">

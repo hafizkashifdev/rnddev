@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import axios from "axios";
 import CountryInfo from "./CountryCode";
+import ErrorInfo from "./ErrorInfo";
+import SuccessInfo from "./SuccessInfo";
 import { mondaymicrourl, airtablemicrourl , twilliotablemicrourl, emailhtml, emailtitle, contactUstable, AirTableBase, ContactBoardId} from "../../constants/constant";
 const ContactForm = () => {
     const [response, setresponse]= useState('')
@@ -65,6 +67,9 @@ const ContactForm = () => {
                    {/*  <h2>Ready to Get Started?</h2> */}
                     <p>Your email address will not be published. Required fields are marked *</p>
                 </div>
+
+                {/* <SuccessInfo />
+                <ErrorInfo /> */}
 
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
