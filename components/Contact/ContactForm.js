@@ -97,18 +97,23 @@ const ContactForm = () => {
                                     </div>
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <input type="text" name="firstname" className="form-control" id="firstname" placeholder="First Name *" required pattern="[A-Za-z0-9()_.'-]+" maxLength="100" />
+                                            <input type="text" name="firstname" className="form-control" id="firstname" placeholder="First Name *" required maxLength="100" 
+                                             pattern="[A-Za-z. ]{3,20}"
+                                             title="First Name should not contain digits and special characters"/>
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <input type="text" name="lastname" className="form-control" id="lastname" placeholder="Last Name *" required pattern="[A-Za-z0-9()_.'-]+" maxLength="100" />
+                                            <input type="text" name="lastname" className="form-control" id="lastname" placeholder="Last Name *" required maxLength="100" 
+                                             pattern="[A-Za-z. ]{3,20}"
+                                             title="Last Name should not contain digits and special characters"/>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <input type="email" name="email" className="form-control" id="email" placeholder="Email *" required maxLength="400" />
+                                            <input type="email" name="email" className="form-control" id="email" placeholder="Email *" required maxLength="400"                                          
+                                            title="Email-id is invalid"/>
                                         </div>
                                     </div>
 
@@ -123,7 +128,10 @@ const ContactForm = () => {
                                         <div className="form-group">
                                             <span>
 
-                                                <input type="tel" name="phone_number" className="form-control" id="phone_number" placeholder="Phone *" required />
+                                                <input type="tel" name="phone_number" className="form-control" id="phone_number" placeholder="Phone *" required 
+                                                  pattern="[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}"
+                                                  title="Phone Number is invalid"
+                                                />
                                             </span>
                                         </div>
                                     </div>
