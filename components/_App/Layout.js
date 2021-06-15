@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
                 <meta name="description" content="RNDKONECT" />
                 <meta name="og:title" property="og:title" content="RNDKONECT"></meta>
                 <meta name="twitter:card" content="RNDKONECT"></meta>
-                <link rel="canonical" href="https://tarn-react.envytheme.com/"></link>
+                <link rel="canonical" href="https://"></link>
                 <meta property="og:image" content="https://res.cloudinary.com/dev-empty/image/upload/v1593069801/explore-learning.jpg" />
             </Head>
 

@@ -1,31 +1,60 @@
-import React from 'react';
+import React, {useState} from 'react';
 import axios from "axios";
-import CountryCode from "./CountryCode";
-
+import CountryInfo from "./CountryCode";
+import { mondaymicrourl, airtablemicrourl , twilliotablemicrourl, emailhtml, emailtitle, contactUstable, AirTableBase, ContactBoardId} from "../../constants/constant";
 const ContactForm = () => {
-    const registerUser = async event => {
-        event.preventDefault()
-        axios.post("https://monday.musikheist.com/contact/savecontact", {
-                Title: event.target.title.value,
-                FirstName: event.target.firstname.value,
-                LastName: event.target.lastname.value,
-                Company: event.target.company.value,
-                CompanyDesignation: event.target.companydesignation.value,
-                Phone: event.target.phone_number.value,
-                Email: event.target.email.value,
-                Comments: event.target.message.value,
-                board: 1377220002
-
-        }).then((data) => {
-            // event.target.name.value = '';
-            // event.target.email.value = '';
-            // event.target.phone_number.value = '';
-            // event.target.message.value = '';
-            alert('Sucssfully saved');
-
-        })
-    }
+    const [response, setresponse]= useState('')
+     const registerUser = async event => {
+         event.preventDefault()
+         axios.all([
+             axios.post(`${ mondaymicrourl }/contact/savecontact`, {
+                 Title: event.target.title.value,
+                 FirstName: event.target.firstname.value,
+                 LastName: event.target.lastname.value,
+                 Company: event.target.company.value,
+                 CompanyDesignation: event.target.companydesignation.value,
+                 Phone: event.target.phone_number.value,
+                 PhoneShortCode: event.target.phone_country.value,
+                 Email: event.target.email.value,
+                 Comments: event.target.message.value,
+                 board: ContactBoardId
+             }),
+             axios.post(`${ airtablemicrourl }/contact/savecontact`, {
+                 Title: event.target.title.value,
+                 FirstName: event.target.firstname.value,
+                 LastName: event.target.lastname.value,
+                 Company: event.target.company.value,
+                 CompanyDesignation: event.target.companydesignation.value,
+                 Phone: event.target.phone_country.value + "" + event.target.phone_number.value,
+                 Email: event.target.email.value,
+                 Comments: event.target.message.value,
+                 base: AirTableBase,
+                 table: contactUstable
+             }),
+             axios.post(`${twilliotablemicrourl}/mail/sendemail`, {
+                 to: event.target.email.value,
+                 from: "No-reply@rndtaxclaims.co.uk",
+                 subject: emailtitle('Project R&D'),
+                 text: emailtitle('Project R&D'),
+                 html: emailhtml(event.target.title.value, event.target.firstname.value, event.target.lastname.value, 'Project R&D')
+             })
+         ]).then(([MonRes, AirRes, TwilioRes]) => {
+             setresponse('Thank you for contacting us.')
+                event.target.title.value='';
+                event.target.firstname.value = '';
+                event.target.lastname.value = '';
+                event.target.company.value = '';
+                event.target.companydesignation.value = '';
+                event.target.phone_number.value = '';
+                event.target.phone_country.value = '';
+                event.target.email.value = '';
+                event.target.message.value='';
+                     }).catch(err => {
+             setresponse('Some Thing went Wrong')
+         })
+     }
     return (
+        
         <section className="contact-area pb-100">
             <div className="container">
                 <div className="section-title">
@@ -45,7 +74,9 @@ const ContactForm = () => {
                     </div>
 
                     <div className="col-lg-6 col-md-12">
+                    
                         <div className="contact-form">
+                        <label>{response}</label>
                             <form id="contactForm" onSubmit={registerUser}>
                                 <div className="row">
                                     <div className="col-lg-12 col-md-6">
@@ -79,7 +110,7 @@ const ContactForm = () => {
 
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <CountryCode className="form-control" id="phone_country" name="phone_country" placeholder="Country *" required maxLength="400" />
+                                            <CountryInfo/>
                                         </div>
                                     </div>
 
@@ -125,6 +156,7 @@ const ContactForm = () => {
                 </div>
             </div>
         </section>
+        
     )
 }
 
