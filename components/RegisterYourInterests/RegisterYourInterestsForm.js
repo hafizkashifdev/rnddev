@@ -40,18 +40,10 @@ const RegisterYourInterestsForm = () => {
                 html: emailhtml(event.target.title.value, event.target.firstname.value, event.target.lastname.value, 'Project R&D')
             })
         ]).then(([MonRes, AirRes, TwilioRes]) => {
-            setresponse('Thank you for contacting us.')
-            event.target.title.value = '';
-            event.target.firstname.value = '';
-            event.target.lastname.value = '';
-            event.target.company.value = '';
-            event.target.companydesignation.value = '';
-            event.target.phone_number.value = '';
-            event.target.phone_country.value = '';
-            event.target.email.value = '';
-            event.target.type.value = '';
+            setresponse('sucess')
+            event.target.reset();
         }).catch(err => {
-            setresponse('Some Thing went Wrong')
+            setresponse('error')
         })
     }
     return (
@@ -66,8 +58,12 @@ const RegisterYourInterestsForm = () => {
                     <p>Your email address will not be published. Required fields are marked *</p>
                 </div>
 
-                {/*  <SuccessInfo />
-                <ErrorInfo />  */}
+                  {
+                    response === 'sucess' ? ( < SuccessInfo / > ) : ( '')
+                }
+                {
+                    response === 'error' ? ( < ErrorInfo / > ):('')
+                }
 
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
@@ -78,7 +74,6 @@ const RegisterYourInterestsForm = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="contact-form">
-                            <label>{response}</label>
                             <form id="contactForm" onSubmit={registerUser}>
                                 <div className="row">
                                     <div className="col-lg-12 col-md-6">
