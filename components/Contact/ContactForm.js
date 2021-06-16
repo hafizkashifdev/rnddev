@@ -82,6 +82,11 @@ const ContactForm = () => {
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
                                             <select name="title" className="form-control" id="title" required>
+                                            <style jsx>{`
+        
+        select:invalid { color:grey; }
+
+    `}</style>
                                                 <option value="">Select your Title *</option>
                                                 <option value="Ms.">Ms.</option>
                                                 <option value="Mr.">Mr.</option>
