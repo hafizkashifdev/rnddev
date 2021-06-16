@@ -158,7 +158,7 @@ const RegisterYourInterestsForm = () => {
                                     <div className="col-lg-12 col-md-12">
                                         <button type="submit" className="default-btn">
                                             <i className="flaticon-tick"></i>
-                                            Register Interset <span></span>
+                                            Register Interest <span></span>
                                         </button>
                                     </div>
                                 </div>
