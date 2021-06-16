@@ -134,13 +134,13 @@ const ContactForm = () => {
 
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
-                                            <input type="text" name="company" className="form-control" id="company" placeholder="Company" maxLength="100" />
+                                            <input type="text" name="company" className="form-control" id="company" placeholder="Organization" maxLength="100" />
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
-                                            <input type="text" name="companydesignation" className="form-control" id="companydesignation" placeholder="Company Designation" maxLength="100" />
+                                            <input type="text" name="companydesignation" className="form-control" id="companydesignation" placeholder="Role/Designation" maxLength="100" />
                                         </div>
                                     </div>
 
