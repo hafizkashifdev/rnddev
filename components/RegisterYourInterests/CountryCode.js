@@ -5,8 +5,8 @@ import React from 'react';
 const CountryInfo = () => {
     return (
  
-    <select  className="form-control" id="phone_country" name="phone_country" placeholder="Country *" required maxLength="400">
-         <option value="">Select your Country Code *</option>
+    <select  className="form-control" id="phone_country" name="phone_country" placeholder="Country *" required maxLength="400"  defaultValue="GB">
+        {/*  <option value=""  style={{ color: '#6c757d' }}>Select your Country Code *</option> */}
             <option value="GB">UK (+44)</option>          
             <optgroup label="Other countries">
             <option value="DZ" >Algeria (+213)</option>

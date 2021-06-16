@@ -84,7 +84,7 @@ const Navbar = () => {
                                         </li>
                                         <li className="nav-item">
                                         <Link href="/register-your-interests" activeClassName="active">
-                                        <a onClick={() => setCollapsed(true)} className="nav-link">Register Your Interests</a>
+                                        <a onClick={() => setCollapsed(true)} className="nav-link">Register Your Interest</a>
                                         </Link>
                                         </li>
                                         <li className="nav-item">
