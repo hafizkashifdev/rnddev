@@ -5,12 +5,12 @@ import React from 'react';
 const CountryInfo = () => {
     return (
  
-  <select id="country" name="country" className="form-control" defaultValue="">
-         <option value="">Select your Country Code *</option>
+    <select  className="form-control" id="phone_country" name="phone_country" placeholder="Country *" required maxLength="400"  defaultValue="GB">
+        {/*  <option value=""  style={{ color: '#6c757d' }}>Select your Country Code *</option> */}
             <option value="GB">UK (+44)</option>          
             <optgroup label="Other countries">
             <option value="DZ" >Algeria (+213)</option>
-            {/*     
+            
                 <option value="AD" >Andorra (+376)</option>
                 <option value="AO">Angola (+244)</option>
                 <option value="AI" value123="1264">Anguilla (+1264)</option>
@@ -223,7 +223,7 @@ const CountryInfo = () => {
                 <option value="YE" value123="969">Yemen (North)(+969)</option>
                 <option value="YE" value123="967">Yemen (South)(+967)</option>
                 <option value="ZM" value123="260">Zambia (+260)</option>
-                <option value="ZW" value123="263">Zimbabwe (+263)</option> */}
+                <option value="ZW" value123="263">Zimbabwe (+263)</option>
             </optgroup>
         </select>
 
