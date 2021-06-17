@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div id="navbar" className="navbar-area">
+            <div id="navbar" className="navbar-area navbar-style-two">
                 <div className="tarn-nav">
                     <div className="container-fluid">
                         <nav className="navbar navbar-expand-lg navbar-light">
@@ -87,11 +87,7 @@ const Navbar = () => {
                                         <a onClick={() => setCollapsed(true)} className="nav-link">Register Your Interest</a>
                                         </Link>
                                         </li>
-                                        <li className="nav-item">
-                                        <Link href="/contact" activeClassName="active">
-                                        <a onClick={() => setCollapsed(true)} className="nav-link">Contact Us</a>
-                                        </Link>
-                                        </li>                               
+                                                                       
                                 </ul> 
                             
                                 <div className="others-option d-flex align-items-center">
@@ -100,7 +96,7 @@ const Navbar = () => {
                                     <div className="option-item">
                                         <Link href="/contact">
                                             <a onClick={() => setCollapsed(true)} className="default-btn">
-                                                <i className="flaticon-right"></i> Get Started <span></span>
+                                                <i className="flaticon-right"></i> Contact Us <span></span>
                                             </a>
                                         </Link>
                                     </div>

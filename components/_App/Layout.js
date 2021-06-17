@@ -11,10 +11,10 @@ const Layout = ({ children }) => {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-                <title>RNDKONECT</title>
-                <meta name="description" content="RNDKONECT" />
-                <meta name="og:title" property="og:title" content="RNDKONECT"></meta>
-                <meta name="twitter:card" content="RNDKONECT"></meta>
+                <title>RNDTAXCLAIMS</title>
+                <meta name="description" content="RNDTAXCLAIMS" />
+                <meta name="og:title" property="og:title" content="RNDTAXCLAIMS"></meta>
+                <meta name="twitter:card" content="RNDTAXCLAIMS"></meta>
                 <link rel="canonical" href="https://"></link>
                 <meta property="og:image" content="https://res.cloudinary.com/dev-empty/image/upload/v1593069801/explore-learning.jpg" />
             </Head>
