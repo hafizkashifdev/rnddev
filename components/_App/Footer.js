@@ -17,10 +17,10 @@ return (
                     <p>
                         RNDTAXCLAIMS Limited is a registered in Scotland with company number SC670951 Authorised and
                         regulated by the Financial Conduct Authority. RNDTAXCLAIMS is entered on the Financial
-                        Services Register <a href="#">https://register.rnd.org.uk/</a> under reference 945321.
+                        Services Register <a href="#">https://register.rndtaxclaims.org.uk/</a> under reference 945321.
                         <br/>
                         If you wish to register a complaint, please write to us at the address above or e-mail us at
-                        complaints@rnd.co.uk
+                        complaints@rndtaxclaims.co.uk
                     </p>
 
                     <ul className="social-link">
@@ -28,6 +28,13 @@ return (
                             <Link href="#">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-facebook'></i>
+                            </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                            <a className="d-block" target="_blank">
+                                <i className='bx bxl-youtube'></i>
                             </a>
                             </Link>
                         </li>
@@ -65,19 +72,15 @@ return (
                     <ul className="footer-contact-info">
                         <li>
                             <i className='bx bx-map'></i>
-                            175 5th Ave, New York, NY 10010, <br /> United States
+                            150 Whitacres Road, Glasgow, G53 7LJ, <br /> Scotland
                         </li>
                         <li>
                             <i className='bx bx-phone-call'></i>
-                            <a href="tel:+44587154756">+1 (123) 456 7890</a>
+                            <a href="tel:07500287504">07500287504</a>
                         </li>
                         <li>
                             <i className='bx bx-envelope'></i>
-                            <a href="#">info@rnd.com</a>
-                        </li>
-                        <li>
-                            <i className='bx bxs-inbox'></i>
-                            <a href="tel:+557854578964">+55 785 4578964</a>
+                            <a href="#">info@rndtaxclaims.com</a>
                         </li>
                     </ul>
                 </div>
@@ -87,8 +90,8 @@ return (
         <div className="footer-bottom-area">
             <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6">
-                    <p>Copyright &copy;{currentYear} All rights reserved <a target="_blank"
-                            href="https://envytheme.com/"> <strong>Share My Dine</strong> </a></p>
+                    <p>Copyright &copy;{currentYear} All rights reserved by <a target="_blank"
+                            href="https://envytheme.com/"> <strong>RNDTAXCLAIMS</strong> </a></p>
                 </div>
 
                 <div className="col-lg-6 col-md-6">
