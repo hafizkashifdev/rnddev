@@ -161,7 +161,14 @@ const ContactForm = () => {
                             </form>
                         </div>
                     </div>
+               
                 </div>
+                {
+                    response === 'sucess' ? ( < SuccessInfo / > ) : ( '')
+                }
+                {
+                    response === 'error' ? ( < ErrorInfo / > ):('')
+                }
             </div>
         </section>
         
