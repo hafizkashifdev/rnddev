@@ -14,7 +14,7 @@ const MainBanner = () => {
                                     animate__fadeInLeft 
                                     animate__delay-0.1s
                                 "
-                            >RNDKONECT</h1>
+                            >RNDTAXCLAIMS</h1>
                      
                             <p
                                 className="
