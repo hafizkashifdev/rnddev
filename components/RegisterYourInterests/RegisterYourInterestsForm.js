@@ -95,15 +95,15 @@ const RegisterYourInterestsForm = () => {
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
                                             <input type="text" name="firstname" className="form-control" id="firstname" placeholder="First Name *" required maxLength="100"
-                                                pattern="[A-Za-z. ]{3,20}"
-                                                title="First Name should not contain digits and special characters" />
+                                                pattern="^[a-zA-Z0-9 ]+$"
+                                                title="First Name is invalid" />
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
                                             <input type="text" name="lastname" className="form-control" id="lastname" placeholder="Last Name *" required maxLength="100"
-                                                pattern="[A-Za-z. ]{3,20}"
-                                                title="Last Name should not contain digits and special characters" />
+                                                pattern="^[a-zA-Z0-9 ]+$"
+                                                title="Last Name is invalid" />
                                         </div>
                                     </div>
 
