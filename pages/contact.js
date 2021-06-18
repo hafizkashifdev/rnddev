@@ -17,10 +17,9 @@ const Contact = () => {
                 activePageText="Contact" 
             />
 
-          
-            <ContactForm />
-
             <ContactInfo />
+          
+            <ContactForm />            
             
             <Footer />
         </>

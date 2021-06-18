@@ -14,9 +14,7 @@ const Layout = ({ children }) => {
                 <title>RNDTAXCLAIMS</title>
                 <meta name="description" content="RNDTAXCLAIMS" />
                 <meta name="og:title" property="og:title" content="RNDTAXCLAIMS"></meta>
-                <meta name="twitter:card" content="RNDTAXCLAIMS"></meta>
-                <link rel="canonical" href="https://"></link>
-                <meta property="og:image" content="https://res.cloudinary.com/dev-empty/image/upload/v1593069801/explore-learning.jpg" />
+                <meta name="twitter:card" content="RNDTAXCLAIMS"></meta>              
             </Head>
 
             {children}
