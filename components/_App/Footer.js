@@ -15,7 +15,7 @@ return (
                         <img src="/img/logo.png" alt="logo" />
                     </a>
                     <p>
-                        RNDTAXCLAIMS Limited is a registered in Scotland with company number SC670951 Authorised and
+                        RNDTAXCLAIMS Limited is a registered in Scotland with company number 12125945 Authorised and
                         regulated by the Financial Conduct Authority. RNDTAXCLAIMS is entered on the Financial
                         Services Register <a href="#">https://register.rndtaxclaims.org.uk/</a> under reference 945321.
                         <br/>
@@ -25,28 +25,28 @@ return (
 
                     <ul className="social-link">
                         <li>
-                            <Link href="#">
+                            <Link href="https://www.facebook.com/RnD-Tax-Claims-108095721497153">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-facebook'></i>
                             </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
+                            <Link href="https://www.youtube.com/channel/UCpN6gJW506u7K0xCs6_kDtg">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-youtube'></i>
                             </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
+                            <Link href="https://twitter.com/RnD_TaxClaims">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-twitter'></i>
                             </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
+                            <Link href="https://www.instagram.com/rnd89241/">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-instagram'></i>
                             </a>
