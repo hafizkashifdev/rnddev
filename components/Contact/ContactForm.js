@@ -118,13 +118,13 @@ const ContactForm = () => {
                                     </div>
 
 
-                                    <div className="col-lg-12 col-md-6">
+                                    <div className="col-lg-3 col-md-3">
                                         <div className="form-group">
                                             <CountryInfo/>
                                         </div>
                                     </div>
 
-                                    <div className="col-lg-12 col-md-12">
+                                    <div className="col-lg-9 col-md-9">
                                         <div className="form-group">
                                             <span>
 
