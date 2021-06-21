@@ -16,21 +16,30 @@ const MainBanner = () => {
                                     animate__fadeInLeft 
                                     animate__delay-0.1s
                                 "
-                            >RNDTAXCLAIMS</h1>
+                            >The simplest way is the right way. </h1>
                          
-                            <p
+                            <h3
                                 className="
                                     animate__animated 
                                     animate__fadeInLeft 
                                     animate__delay-0.1s
                                 "
-                            ></p>
-                         
+                            >
+                               
+                                R&D Tax credit claims simplified. 
+                                <br/>
+                                Contact us to get a free estimation. </h3>
+
+                         <Link href="/why-us">
+                         <a>
+                         Read more
+                                    </a>
+                         </Link>
                             <div className="btn-box animate__animated animate__fadeInRight animate__delay-0.1s">
-                                <Link href="/register-your-interests">
+                                <Link href="/contact">
                                     <a className="default-btn">
                                         <i className="flaticon-right"></i> 
-                                        Register Your Interest 
+                                        Book a free demo 
                                         <span></span>
                                     </a>
                                 </Link>
