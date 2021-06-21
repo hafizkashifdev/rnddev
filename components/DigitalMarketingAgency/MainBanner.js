@@ -27,7 +27,7 @@ const MainBanner = () => {
                             ></p>
                          
                             <div className="btn-box animate__animated animate__fadeInRight animate__delay-0.1s">
-                                <Link href="/about-us-two">
+                                <Link href="/register-your-interests">
                                     <a className="default-btn">
                                         <i className="flaticon-right"></i> 
                                         Register Your Interest 

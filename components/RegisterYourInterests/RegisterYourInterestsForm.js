@@ -34,7 +34,7 @@ const RegisterYourInterestsForm = () => {
             }),
             axios.post(`${twilliotablemicrourl}/mail/sendemail`, {
                 to: event.target.email.value,
-                from: "No-reply@rndtaxclaims.co.uk",
+                from: "contact-us@rndtaxclaims.co.uk",
                 subject: emailtitle('Project R&D'),
                 text: emailtitle('Project R&D'),
                 html: emailhtml(event.target.title.value, event.target.firstname.value, event.target.lastname.value, 'Project R&D')
