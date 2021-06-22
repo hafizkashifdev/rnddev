@@ -18,7 +18,7 @@ const RegisterYourInterestsForm = () => {
                 Phone: event.target.phone_number.value,
                 PhoneShortCode: event.target.phone_country.value,
                 Email: event.target.email.value,
-                Type: event.target.type.value,
+                Type: 'Customer', // always customer
                 board: RYIBoardId
             }),
             axios.post(`${airtablemicrourl}/contact/saveinterset`, {
@@ -114,21 +114,12 @@ const RegisterYourInterestsForm = () => {
                                     </div>
 
 
-                                    <div className="col-lg-12 col-md-6">
-                                        <div className="form-group">
-                                            <CountryInfo />
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-12 col-md-12">
-                                        <div className="form-group">
-                                            <span>
-
-                                                <input type="tel" name="phone_number" className="form-control" id="phone_number" placeholder="Phone *" required
-                                                    pattern="[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}"
-                                                    title="Phone Number is invalid" />
-                                            </span>
-                                        </div>
+                                    <div className="input-group col-lg-12 col-md-12 form-group">
+                                        <CountryInfo />
+                                        <span className="input-group-addon">&nbsp;&nbsp;</span>
+                                        <input type="tel" name="phone_number" className="form-control" id="phone_number" placeholder="Phone *" required
+                                            pattern="[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}"
+                                            title="Phone Number is invalid" />
                                     </div>
 
 
@@ -143,19 +134,9 @@ const RegisterYourInterestsForm = () => {
                                             <input type="text" name="companydesignation" className="form-control" id="companydesignation" placeholder="Role/Designation" maxLength="100" />
                                         </div>
                                     </div>
-                                    <div className="col-lg-12 col-md-6">
+                                    <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
-                                            <select name="type" className="form-control" id="type" required>
-                                            <style jsx>{`
-        
-        select:invalid { color:grey; }
-
-    `}</style>
-                                                <option value="">Select your Type *</option>
-                                                <option value="Vendor">Vendor</option>
-                                                <option value="Customer">Customer</option>
-
-                                            </select>
+                                            <textarea name="message" id="message" className="form-control" cols="30" rows="6" placeholder="Write your message..." maxLength="2000"></textarea>
                                         </div>
                                     </div>
 
