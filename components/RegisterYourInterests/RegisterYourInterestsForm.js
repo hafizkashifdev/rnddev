@@ -19,6 +19,7 @@ const RegisterYourInterestsForm = () => {
                 PhoneShortCode: event.target.phone_country.value,
                 Email: event.target.email.value,
                 Type: 'Customer', // always customer
+                message: event.target.message.value,
                 board: RYIBoardId
             }),
             axios.post(`${airtablemicrourl}/contact/saveinterset`, {
@@ -29,6 +30,7 @@ const RegisterYourInterestsForm = () => {
                 CompanyDesignation: event.target.companydesignation.value,
                 Phone: event.target.phone_country.value + "" + event.target.phone_number.value,
                 Email: event.target.email.value,
+                message: event.target.message.value,
                 base: AirTableBase,
                 table: RYItable
             }),
