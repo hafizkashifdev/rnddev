@@ -1,6 +1,6 @@
-export const mondaymicrourl = 'https://90k2z6uixf.execute-api.us-west-2.amazonaws.com'
-export const airtablemicrourl = 'https://rkoh18sgre.execute-api.us-west-2.amazonaws.com'
-export const twilliotablemicrourl = 'https://1ga6wy07u1.execute-api.us-west-2.amazonaws.com'
+export const mondaymicrourl = 'https://59vdwfeu91.execute-api.eu-west-2.amazonaws.com/UAT'
+export const airtablemicrourl = 'https://nr8x0snfd2.execute-api.eu-west-2.amazonaws.com/UAT'
+export const twilliotablemicrourl = 'https://a6fek3sduj.execute-api.eu-west-2.amazonaws.com/UAT'
 export const emailhtml = (title, first_name, last_name, team) => {
     return `Hello ${title}  ${first_name} ${last_name} <br>
     Thanks for contacting us , As our customer relationship officer will get back to you shortly.<br>
