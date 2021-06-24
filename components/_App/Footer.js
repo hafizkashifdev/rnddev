@@ -121,18 +121,11 @@ return (
                                     <Link href="/terms-and-conditions">
                                         <a>Terms & Conditions</a>
                                     </Link>
-                                </li>    
-                                <li>
-                                    # 20210618.1
-                                </li>                            
+                                </li>                             
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="footer-map">
-                <img src="/img/footer-map.png" alt="image" />
             </div>
         </footer>
     );
