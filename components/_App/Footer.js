@@ -72,7 +72,7 @@ return (
 
                             <ul className="footer-contact-info">
                                 <li>
-                                    <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA">
+                                    <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA" target="_blanl">
                                         <i className='bx bx-map'></i>
                                         Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, <br />
                                         Uxbridge, UB11 1AF<br /> United Kingdom
