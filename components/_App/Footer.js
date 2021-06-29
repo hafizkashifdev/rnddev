@@ -72,7 +72,7 @@ return (
 
                             <ul className="footer-contact-info">
                                 <li>
-                                    <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA">
+                                    <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA" target="_blanl">
                                         <i className='bx bx-map'></i>
                                         Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, <br />
                                         Uxbridge, UB11 1AF<br /> United Kingdom
@@ -121,18 +121,11 @@ return (
                                     <Link href="/terms-and-conditions">
                                         <a>Terms & Conditions</a>
                                     </Link>
-                                </li>    
-                                <li>
-                                    # 20210618.1
-                                </li>                            
+                                </li>                             
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="footer-map">
-                <img src="/img/footer-map.png" alt="image" />
             </div>
         </footer>
     );
