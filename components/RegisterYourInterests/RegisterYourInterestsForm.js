@@ -4,6 +4,7 @@ import CountryInfo from "./CountryCode";
 import { mondaymicrourl, airtablemicrourl, twilliotablemicrourl, emailhtml, emailtitle, contactUstable, AirTableBase, ContactBoardId, RYIBoardId, RYItable } from "../../constants/constant";
 import ErrorInfo from "./ErrorInfo";
 import SuccessInfo from "./SuccessInfo";
+import Link from "next/link";
 const RegisterYourInterestsForm = () => {
     const [response, setresponse] = useState('')
     const registerUser = async event => {
@@ -142,7 +143,11 @@ const RegisterYourInterestsForm = () => {
                                         </div>
                                     </div>
 
-
+                                     <div className="col-lg-12 col-md-6">
+                                        <div className="form-group">
+                                            <label>By submitting the form you accept <Link href='/terms-and-conditions/'><a>Terms & Conditions</a></Link> and <Link href='/privacy-policy/'><a>Privacy Policy</a></Link></label>
+                                        </div>
+                                    </div>
                                     <div className="col-lg-12 col-md-12">
                                         <button type="submit" className="default-btn">
                                             <i className="flaticon-tick"></i>
