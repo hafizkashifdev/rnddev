@@ -8,16 +8,16 @@ const MainBanner = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="banner-wrapper-content">
-                            <span className="sub-title"></span>
-                      
-                            <h1 
+                            <span className="sub-title">R&D Tax credit claims simplified</span>
+
+                            <h1
                                 className="
                                     animate__animated 
                                     animate__fadeInLeft 
                                     animate__delay-0.1s
                                 "
                             >The simplest way is the right way. </h1>
-                         
+
                             <h3
                                 className="
                                     animate__animated 
@@ -25,25 +25,32 @@ const MainBanner = () => {
                                     animate__delay-0.1s
                                 "
                             >
-                               
-                                R&D Tax credit claims simplified. 
-                                <br/>
-                                Contact us to get a free estimation. </h3>
 
-                         <Link href="/why-us">
-                         <a>
-                         Read more
-                                    </a>
-                         </Link>
+                                <a href="/contact"> Contact us to get a free estimation</a>
+
+                            </h3>
+
+
+                            <a href="/how-it-works">Read More</a>
+
+
                             <div className="btn-box animate__animated animate__fadeInRight animate__delay-0.1s">
-                                <Link href="/contact">
+                                <Link href="/register-your-interests">
                                     <a className="default-btn">
-                                        <i className="flaticon-right"></i> 
-                                        Book a free demo 
-                                        <span></span>
+                                        <i className="flaticon-right"></i>
+                                        Book a free demo
                                     </a>
                                 </Link>
                             </div>
+
+
+
+
+
+
+
+
+
                         </div>
                     </div>
 
