@@ -10,8 +10,8 @@ return (
                 <div className="terms-of-service-content">
                     <img src="/img/terms-of-service.jpg" alt="image" />
                     <p>These Terms and Conditions, together with any and all other documents referred to herein, set out
-                        the terms of use under which you may use this website,<strong>(enter website
-                            name)</strong> (Our Site). Please read these Terms and Conditions carefully
+                        the terms of use under which you may use this website,
+                        <strong> <a href="http://rndtaxclaims.co.uk/">RnD Tax Claims</a></strong>. Please read these Terms and Conditions carefully
                         and ensure that you understand them. Your agreement to comply with and be bound by these Terms
                         and Conditions is deemed to occur upon your first use of Our Site. If you do not agree to comply
                         with and be bound by these Terms and Conditions, you must stop using Our Site immediately.</p>
@@ -54,7 +54,7 @@ return (
                                 </td>
                                 <td>
                                     <p>means collectively any online facilities, tools, services or information that
-                                        <strong>(Enter Company name) </strong>makes available through the Website either
+                                        <strong> RnD Tax Claims (Orcalo Limited) </strong>makes available through the Website either
                                         now or in the future;</p>
                                     <p></p>
                                 </td>
@@ -77,10 +77,9 @@ return (
                                     <p></p>
                                 </td>
                                 <td>
-                                    <p>means Wobbegong Technology Ltd<strong>,</strong>a company incorporated in
-                                        England (Registered Number <strong>(enter number</strong>), and having its
-                                        Registered Office at <strong>(enter address) </strong>trading as <strong>(enter
-                                            company name).</strong></p>
+                                    <p>means RnD Tax Claims (Orcalo Limited)<strong>,</strong>a company incorporated in
+                                        England (Registered Number <strong>12125945</strong>), and having its
+                                        Registered Office at <strong>Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, Uxbridge, UB11 1AF, United Kingdom</strong></p>
                                     <p></p>
                                 </td>
                             </tr>
