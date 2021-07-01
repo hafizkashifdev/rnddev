@@ -96,7 +96,7 @@ const Navbar = () => {
                                     <div className="option-item">
                                         <Link href="/contact">
                                             <a onClick={() => setCollapsed(true)} className="default-btn">
-                                                <i className="flaticon-right"></i> Contact Us <span></span>
+                                                <i className="flaticon-right"></i> Contact us <span></span>
                                             </a>
                                         </Link>
                                     </div>
