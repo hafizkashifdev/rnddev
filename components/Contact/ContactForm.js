@@ -37,9 +37,9 @@ const ContactForm = () => {
              axios.post(`${twilliotablemicrourl}/mail/sendemail`, {
                  to: event.target.email.value,
                  from: "contact-us@rndtaxclaims.co.uk",
-                 subject: emailtitle('Research & Development'),
-                 text: emailtitle('Research & Development'),
-                 html: emailhtml(event.target.title.value, event.target.firstname.value, event.target.lastname.value, 'Research & Development')
+                 subject: emailtitle('RnD Tax Claims'),
+                 text: emailtitle('RnD Tax Claims'),
+                 html: emailhtml(event.target.title.value, event.target.firstname.value, event.target.lastname.value, 'RnD Tax Claims')
              })
          ]).then(([MonRes, AirRes, TwilioRes]) => {
              setresponse('sucess')
