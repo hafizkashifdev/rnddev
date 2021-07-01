@@ -19,7 +19,7 @@ Research and Development (R&D) tax relief initiative supports companies that wor
                             </p>
                         </blockquote>
                         
-                        <div class="img-50-center">
+                        <div className="img-50-center">
                             <img src="/img/about/about-img5.jpg" alt="image" />
                         </div>
                         <h2>Projects that count as R&D</h2>
