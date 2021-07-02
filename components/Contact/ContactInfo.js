@@ -47,7 +47,7 @@ return (
                     <div className="icon">
                         <i className='bx bx-time-five'></i>
                     </div>
-                    <h3>Hours of Operation</h3>
+                    <h3>Operation Hours</h3>
                     <p>Monday - Friday: 09:00 AM - 05:00 PM</p>
                 </div>
             </div>

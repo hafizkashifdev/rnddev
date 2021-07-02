@@ -9,7 +9,7 @@ const LearnContent = () => {
                     <div className="col-lg-12 col-md-12">
                         <div className="privacy-policy-content">
                             <div className="img-50-center">
-                                <img src="/img/about/about-img5.jpg" alt="image" />
+                                <img src="/img/learn-rnd.jpg" alt="image" />
                             </div>
                             <blockquote className="blockquote">
                                 <p>

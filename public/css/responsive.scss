@@ -13,6 +13,11 @@ $value_nine: 1550px;
 
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_two) {
+  // img-50-center
+.img-50-center {
+  width: 100%;
+}
+// img-50-center
   .navbar-brand {
     img {
       width: 70px;

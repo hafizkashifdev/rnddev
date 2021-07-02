@@ -1,5 +1,8 @@
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
+  .img-50-center {
+    width: 100%;
+  }
   .navbar-brand img {
     width: 70px;
   }
