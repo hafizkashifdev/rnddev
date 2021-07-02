@@ -17,7 +17,7 @@ return (
                         <br/>
                         We will make R&D claim an easy, hassle free process from end to end.
                     </p>
-                    <div>
+                    <div className="text-center">
                         <img src="/img/projects/projects-details1.jpg" alt="image" class="py-3" />
                     </div>
                     <h3>We will ensure:</h3>
@@ -35,6 +35,9 @@ return (
                         <br/>
                         Our services and pricing are tailored and structured to suit all organisations.
                     </p>
+                    <div className="text-center">
+                        <img src="/img/about-us.png" alt="image" class="py-3" />
+                    </div>
                 </div>
             </div>
 
