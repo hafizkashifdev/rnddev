@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 
 const PrivacyPolicyContent = () => {
 return (
-<section className="privacy-policy-area ptb-100">
+<section className="privacy-policy-area ptb-20">
     <div className="container">
         <div className="row">
             <div className="col-lg-8 col-md-12">
@@ -696,13 +696,6 @@ return (
                     <p>We try to respond to all legitimate requests within one month. Occasionally it may take us longer
                         than a month if your request is particularly complex or you have made a number of requests. In
                         this case, we will notify you and keep you updated.</p>
-                    <h3>Changes to our privacy policy</h3>
-                    <p>This version was last updated on 20th August 2019.</p>
-                    <p>Historic version of this policy can be obtained by<a
-                            href="mailto:%20dpo@whisperclaims.co.uk">contacting us</a>.</p>
-                    <p></p>
-
-
                 </div>
             </div>
 

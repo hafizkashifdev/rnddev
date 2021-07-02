@@ -3,12 +3,12 @@ import Sidebar from './Sidebar';
 
 const CookiePolicyContent = () => {
 return (
-<section className="terms-of-service-area ptb-100">
+<section className="terms-of-service-area ptb-20">
     <div className="container">
         <div className="row">
             <div className="col-lg-8 col-md-12">
                 <div className="terms-of-service-content">
-                    <img src="/img/terms-of-service.jpg" alt="image" />
+                    <img src="/img/cookie-policy.png" alt="image" />
                     <h1>Cookie Policy</h1>
                     <h3>1. Introduction</h3>
                     <p>1.1 Our website uses cookies.</p>
@@ -83,9 +83,9 @@ return (
                     <p>7.2 Deleting cookies will have a negative impact on the usability of many
                         websites.</p>
                     <h3>8. Our details</h3>
-                    <p>8.1 This website is owned and operated by _______.</p>
+                    <p>8.1 This website is owned and operated by RnD Tax Claims.</p>
                     <p>8.2 We are registered in England and Wales under registration number
-                        ______, and our registered office is at ______________.</p>
+                    12125945, and our registered office is at 945321.</p>
                     <p>8.3 You can contact us by writing to the business address given above, or
                         by using our website contact form.</p>
                 </div>

@@ -3,12 +3,12 @@ import Sidebar from './Sidebar';
 
 const TermsAndConditionsContent = () => {
 return (
-<section className="terms-of-service-area ptb-100">
+<section className="terms-of-service-area ptb-20">
     <div className="container">
         <div className="row">
             <div className="col-lg-8 col-md-12">
                 <div className="terms-of-service-content">
-                    <img src="/img/terms-of-service.jpg" alt="image" />
+                    <img src="/img/terms-and-conditions.png" alt="image" />
                     <p>These Terms and Conditions, together with any and all other documents referred to herein, set out
                         the terms of use under which you may use this website,
                         <strong> <a href="http://rndtaxclaims.co.uk/">RnD Tax Claims</a></strong>. Please read these Terms and Conditions carefully

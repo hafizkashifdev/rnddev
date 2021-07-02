@@ -49,7 +49,7 @@ return (
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
+                            <Link href="https://www.linkedin.com/company/rnd-tax-claims">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-linkedin'></i>
                             </a>
