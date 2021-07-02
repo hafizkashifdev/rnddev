@@ -18,7 +18,7 @@ return (
                         We will make R&D claim an easy, hassle free process from end to end.
                     </p>
                     <div className="text-center">
-                        <img src="/img/projects/projects-details1.jpg" alt="image" class="py-3" />
+                        <img src="/img/about-us-one.png" alt="image" class="py-3" />
                     </div>
                     <h3>We will ensure:</h3>
                     <p>
