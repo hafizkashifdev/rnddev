@@ -23,7 +23,7 @@ return (
                         complaints@rndtaxclaims.co.uk
                     </p> */}
                     <p>
-                    RnDTaxClaims (KALCULATOR LTD) is a company registered in England and Wales with registered
+                    RnDTaxClaims (Kalculator Limited) is a company registered in England and Wales with registered
                         company number 13445423.
                     </p>
                  
@@ -104,7 +104,7 @@ return (
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright &copy;{currentYear} All rights reserved by <strong> <a href="http://rndtaxclaims.co.uk">RnDTaxClaims (KALCULATOR LTD)</a>
+                            <p>Copyright &copy;{currentYear} All rights reserved by <strong> <a href="http://rndtaxclaims.co.uk">RnDTaxClaims (Kalculator Limited)</a>
                             </strong></p>
                         </div>
 
