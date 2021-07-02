@@ -2128,8 +2128,8 @@ Main Banner Area CSS
   background: linear-gradient(75deg, #1784EA 10%, #5B4FD2) !important;
   position: relative;
   z-index: 1;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .digital-agency-banner .banner-wrapper-content {
@@ -10203,8 +10203,8 @@ Page Title Area CSS
   z-index: 1;
   background: transparent url(/img/page-title-bg.jpg) right top no-repeat;
   border-bottom: 1px solid #fafafa;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .page-title-area .shape-img1 {
