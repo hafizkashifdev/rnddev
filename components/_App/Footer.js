@@ -81,12 +81,11 @@ return (
                         </li>
                         <li>
 
-                            <a href="mailto:contact-us@rndtaxclaims.co.uk"> <i
-                                    className='bx bx-envelope'></i>contact-us@rndtaxclaims.co.uk</a>
-                        </li>
-                        <li>
-                            <i className="bx bx-time"></i>Monday - Friday: 09:00 AM - 05:00 PM
-                        </li>
+                                    <a href="mailto:contact-us@rndtaxclaims.co.uk"> <i className='bx bx-envelope'></i>contact-us@rndtaxclaims.co.uk</a>
+                                </li>
+                                <li>
+                                    <i className="bx bx-time"></i>Monday - Friday: 09:00 AM - 05:00 PM
+                                </li>
 
 
                     </ul>
