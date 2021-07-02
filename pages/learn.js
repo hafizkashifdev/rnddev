@@ -1,26 +1,23 @@
 import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import ContactInfo from '../components/Contact/ContactInfo';
-import ContactForm from '../components/Contact/ContactForm';
 import Footer from '../components/_App/Footer';
+import LearnContent from '../components/Learn/LearnContent';
 
-const Contact = () => {
+const HowItWorks = () => {
     return (
         <>
             <Navbar />
-
             <PageBanner
-                pageTitle="Contact us" 
+                pageTitle="Learn" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Contact us" 
-            />
-            <ContactForm />            
-            <ContactInfo />
+                activePageText="Learn" 
+            />               
+            <LearnContent />  
             <Footer />
         </>
     );
 }
 
-export default Contact;
+export default HowItWorks;

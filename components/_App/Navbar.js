@@ -37,13 +37,13 @@ const Navbar = () => {
                                 </a>
                             </Link>
 
-                            <button 
-                                onClick={toggleNavbar} 
+                            <button
+                                onClick={toggleNavbar}
                                 className={classTwo}
-                                type="button" 
-                                data-toggle="collapse" 
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                aria-expanded="false" 
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
                                 <span className="icon-bar top-bar"></span>
@@ -53,7 +53,7 @@ const Navbar = () => {
 
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
-                                   {/* <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link href="/index" activeClassName="active">
                                             <a onClick={e => e.preventDefault()} className="nav-link">
                                                 Home  <i className='bx bx-chevron-down'></i> 
@@ -65,38 +65,46 @@ const Navbar = () => {
                                         <Link href="/" activeClassName="active">
                                             <a onClick={() => setCollapsed(true)} className="nav-link">Home</a>
                                         </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                        <Link href="/how-it-works" activeClassName="active">
-                                        <a onClick={() => setCollapsed(true)} className="nav-link">How It Works</a>
-                                        </Link>
-                                        </li>
-
-                                        <li className="nav-item">
+                                    </li>
+                                    <li className="nav-item">
                                         <Link href="/about-us" activeClassName="active">
                                             <a onClick={() => setCollapsed(true)} className="nav-link">About Us</a>
                                         </Link>
-                                        </li>
-                                        <li className="nav-item">
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link href="/how-it-works" activeClassName="active">
+                                            <a onClick={() => setCollapsed(true)} className="nav-link">How It Works</a>
+                                        </Link>
+                                    </li>
+
+
+                                    <li className="nav-item">
                                         <Link href="/why-us" activeClassName="active">
-                                        <a onClick={() => setCollapsed(true)} className="nav-link">Why Us</a>
+                                            <a onClick={() => setCollapsed(true)} className="nav-link">Why Us</a>
                                         </Link>
-                                        </li>
-                                        <li className="nav-item">
+                                    </li>
+
+                                    <li className="nav-item">
+                                        <Link href="/learn" activeClassName="active">
+                                            <a onClick={() => setCollapsed(true)} className="nav-link">Learn</a>
+                                        </Link>
+                                    </li>
+
+                                    <li className="nav-item">
                                         <Link href="/register-your-interests" activeClassName="active">
-                                        <a onClick={() => setCollapsed(true)} className="nav-link">Register Your Interest</a>
+                                            <a onClick={() => setCollapsed(true)} className="nav-link">Register Your Interest</a>
                                         </Link>
-                                        </li>
-                                                                       
-                                </ul> 
-                            
+                                    </li>
+
+                                </ul>
+
                                 <div className="others-option d-flex align-items-center">
-                            
+
 
                                     <div className="option-item">
                                         <Link href="/contact">
                                             <a onClick={() => setCollapsed(true)} className="default-btn">
-                                                <i className="flaticon-right"></i> Contact Us <span></span>
+                                                <i className="flaticon-right"></i> Contact us <span></span>
                                             </a>
                                         </Link>
                                     </div>

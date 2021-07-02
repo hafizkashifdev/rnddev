@@ -11,7 +11,7 @@ const AboutUsContent = () => {
                             <img src="/img/projects/projects-details1.jpg" alt="image" />
                         </div>
                         <div className="case-studies-details-desc">
-                            <span className="sub-title">About us Orcalo R&D Tax Relief:</span>
+
 
 
                             <div className="col-lg-8 col-md-6">

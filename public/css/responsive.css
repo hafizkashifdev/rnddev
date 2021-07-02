@@ -1,5 +1,8 @@
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
+  .img-50-center {
+    width: 100%;
+  }
   .navbar-brand img {
     width: 70px;
   }
@@ -1912,8 +1915,8 @@
   }
   .page-title-area {
     background-position: center center;
-    padding-top: 150px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .page-title-area.page-title-style-two {
     padding-top: 60px;
@@ -3301,8 +3304,8 @@
   }
   .page-title-area {
     background-position: center center;
-    padding-bottom: 80px;
-    padding-top: 160px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   .page-title-area.page-title-style-two {
     padding-top: 80px;
@@ -4300,8 +4303,8 @@
     font-size: 23px;
   }
   .page-title-area {
-    padding-top: 160px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .page-title-area.page-title-style-two {
     padding-bottom: 90px;
