@@ -8,14 +8,14 @@ return (
         <div className="row">
             <div className="col-lg-8 col-md-12">
                 <div className="privacy-policy-content">
-                    <img src="/img/privacy-policy.jpg" alt="image" />
+                    <img src="/img/privacy-policy.png" alt="image" />
 
                     <h3>About this policy</h3>
-                    <p><strong>(Company Name)</strong> provides a solution to improve the way organisations prepare and
+                    <p><strong>RnD Tax Claims</strong> provides a solution to improve the way organisations prepare and
                         submit claims to HMRC for R&amp;D tax relief. Our specialised tax software makes it easy for
                         businesses to prepare clear and concise claims, either directly or through a business advisor.
                     </p>
-                    <p>Whether you are an existing customer of or service provider to<strong> (company name)</strong>,
+                    <p>Whether you are an existing customer of or service provider to<strong> RnD Tax Claims</strong>,
                         or you just want to get in touch with us to find out more information about us and our solution,
                         you can trust that we will respect your privacy and are committed to protecting your personal
                         data.</p>
@@ -25,8 +25,8 @@ return (
                     <p>Please read the following carefully to understand our views and practices regarding your personal
                         data and how we will treat it.</p>
                     <h3>Who we are</h3>
-                    <p><strong>(company name)</strong> is a limited company incorporated in England. Our company number
-                        is <strong>(company number)</strong>.</p>
+                    <p><strong>RnD Tax Claims</strong> is a limited company incorporated in England. Our company number
+                        is <strong>12125945</strong>.</p>
                     <p>We are the data controller in relation to the personal data you provide to us,
                         which means we determine the purposes and the way in which your personal data is, or will be,
                         processed and are responsible for it.</p>
@@ -40,15 +40,23 @@ return (
                                     <p><strong>Email:</strong></p>
                                 </td>
                                 <td>
-                                    <p><strong>(enter email)</strong></p>
+                                    <p><strong> <a
+                                                href="contact-us@rndtaxclaims.co.uk">contact-us@rndtaxclaims.co.uk</a></strong>
+                                    </p>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr className="v-align">
                                 <td>
-                                    <p><strong>Address:</strong></p>
+                                    <p><strong>Address: </strong></p>
                                 </td>
                                 <td>
-                                    <p><strong>(company name and address)</strong></p>
+                                    <p><a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA" target="_blanl">
+                                            <strong> Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley
+                                                Park,
+                                                Uxbridge, UB11 1AF
+                                                United Kingdom
+                                            </strong>
+                                        </a></p>
                                 </td>
                             </tr>
                         </tbody>
@@ -567,8 +575,8 @@ return (
                     <p>Our website uses cookies to help it function and to improve it. Cookies are small files saved to
                         the users computers hard drive that track, save and store information about the
                         users interactions and usage of the website. For information about the cookies we use,
-                        please see our<a
-                            href="https://www.whisperclaims.co.uk/whisperclaims-cookie-policy/">Cookie Policy</a>.</p>
+                        please see our<a href="https://www.whisperclaims.co.uk/whisperclaims-cookie-policy/">Cookie
+                            Policy</a>.</p>
                     <h3>Your rights</h3>
                     <p>Under certain circumstances, you have rights under data protection laws in relation to your
                         personal data. Please read through the table below to find out more about these rights.</p>

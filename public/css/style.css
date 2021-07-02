@@ -195,6 +195,10 @@ a:hover {
   background-color: #fafafa;
 }
 
+.v-align {
+  vertical-align: baseline;
+}
+
 .width-60-center {
   width: 80%;
   margin-left: auto;
