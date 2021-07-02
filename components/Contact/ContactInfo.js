@@ -48,7 +48,7 @@ return (
                         <i className='bx bx-time-five'></i>
                     </div>
                     <h3>Operation Hours</h3>
-                    <p>Monday - Friday: 009:00 AM - 05:00 PM</p>
+                    <p>Monday - Friday: 09:00 AM - 05:00 PM</p>
                 </div>
             </div>
         </div>

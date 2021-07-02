@@ -79,6 +79,11 @@ const HowItWork = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-process-box">
+                            <h3>What costs qualify for R&D tax credits?</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
 

@@ -30,6 +30,11 @@ return (
                     <div class="width-60-center">
                         <img src="/img/how-its-work.png" alt="" />
                     </div>
+                    
+                    <h3>What costs qualify for R&D tax credits?</h3>
+                    <div class="width-60-center">
+                        <img src="/img/How-it-works-two.png" alt="" />
+                    </div>
                 </div>
             </div>
 

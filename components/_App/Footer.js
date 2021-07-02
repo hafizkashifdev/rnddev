@@ -15,9 +15,7 @@ return (
                         <img src="/img/logo.png" alt="logo" />
                     </a>
                     <p>
-                        RnD Tax Claims (Orcalo Limited) is a company registered in England and Wales with registered
-                        company number 12125945. RnD Tax Claims is entered on the Financial Services Register under
-                        reference 945321.
+                        RnDTaxClaims (Kalculator Limited) is a company registered in England and Wales with registered company number 13445423.
                     </p>    
                     <ul className="social-link">
                         <li>

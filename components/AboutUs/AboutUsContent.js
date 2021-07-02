@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const AboutUsContent = () => {
 return (
-<section className="case-studies-details-area ptb-100">
+<section className="case-studies-details-area ptb-20">
     <div className="container">
         <div className="row">
             <div className="col-lg-12 col-md-12">
@@ -18,7 +18,7 @@ return (
                         We will make R&D claim an easy, hassle free process from end to end.
                     </p>
                     <div className="text-center">
-                        <img src="/img/about-us-one.png" alt="image" class="py-3" />
+                        <img src="/img/about-us.png" alt="image" class="py-3" />
                     </div>
                     <h3>We will ensure:</h3>
                     <p>
@@ -36,8 +36,9 @@ return (
                         Our services and pricing are tailored and structured to suit all organisations.
                     </p>
                     <div className="text-center">
-                        <img src="/img/about-us.png" alt="image" class="py-3" />
+                        <img src="/img/about-us-one.png" alt="image" class="py-3" />
                     </div>
+                    
                 </div>
             </div>
 

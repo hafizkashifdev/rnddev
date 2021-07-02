@@ -26,7 +26,7 @@ return (
                         data and how we will treat it.</p>
                     <h3>Who we are</h3>
                     <p><strong>RnD Tax Claims</strong> is a limited company incorporated in England. Our company number
-                        is <strong>12125945</strong>.</p>
+                        is <strong>13445423</strong>.</p>
                     <p>We are the data controller in relation to the personal data you provide to us,
                         which means we determine the purposes and the way in which your personal data is, or will be,
                         processed and are responsible for it.</p>
