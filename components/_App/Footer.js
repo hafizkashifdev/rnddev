@@ -15,7 +15,7 @@ return (
                         <img src="/img/logo.png" alt="logo" />
                     </a>
                     {/* <p>
-                        RnD Tax Claims Limited is a registered in Scotland with company number 12125945 Authorised and
+                        RnD Tax Claims Limited is a registered in Scotland with company number 13445423 Authorised and
                         regulated by the Financial Conduct Authority. RNDTAXCLAIMS is entered on the Financial
                         Services Register <a href="#">https://register.rndtaxclaims.org.uk/</a> under reference 945321.
                         <br/>
