@@ -50,7 +50,7 @@ const RegisterYourInterestsForm = () => {
         })
     }
     return (
-        <section className="contact-area pb-100">
+        <section className="contact-area pb-100 pt-3">
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">

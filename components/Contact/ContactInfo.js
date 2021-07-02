@@ -18,7 +18,7 @@ return (
                         <p>
                             <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA" target="_blank">
                                 Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, <br />
-                                    Uxbridge, UB11 1AF<br /> United Kingdom
+                                Uxbridge, UB11 1AF<br /> United Kingdom
                             </a>
                         </p>
                     </div>
@@ -39,20 +39,16 @@ return (
                 </div>
             </div>
 
-                    <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                        <div className="contact-info-box">
-                            <div className="back-icon">
-                                <i className='bx bx-time-five'></i>
-                            </div>
-                            <div className="icon">
-                                <i className='bx bx-time-five'></i>
-                            </div>
-                            <h3>Hours of Operation</h3>
-                            <p>Monday - Friday: 009:00 AM - 05:00 PM</p>
-                        </div>
+            <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                <div className="contact-info-box">
+                    <div className="back-icon">
+                        <i className='bx bx-time-five'></i>
+                    </div>
+                    <div className="icon">
+                        <i className='bx bx-time-five'></i>
                     </div>
                     <h3>Operation Hours</h3>
-                    <p>Monday - Friday: 09:00 AM - 05:00 PM</p>
+                    <p>Monday - Friday: 009:00 AM - 05:00 PM</p>
                 </div>
             </div>
         </div>
