@@ -11,10 +11,12 @@ return (
                     <img src="/img/terms-and-conditions.png" alt="image" />
                     <p>These Terms and Conditions, together with any and all other documents referred to herein, set out
                         the terms of use under which you may use this website,
-                        <strong> <a href="http://rndtaxclaims.co.uk/">RnD Tax Claims</a></strong>. Please read these Terms and Conditions carefully
+                        <strong> <a href="http://rndtaxclaims.co.uk/">RnD Tax Claims</a></strong>. Please read these
+                        Terms and Conditions carefully
                         and ensure that you understand them. Your agreement to comply with and be bound by these Terms
                         and Conditions is deemed to occur upon your first use of Our Site. If you do not agree to comply
-                        with and be bound by these Terms and Conditions, you must stop using Our Site immediately.</p>
+                        with and be bound by these Terms and Conditions, you must stop using Our Site immediately.
+                    </p>
                     <h3>1. Definitions and Interpretation</h3>
                     <p>In these Terms and Conditions, unless the context otherwise requires, the following expressions
                         have the following meanings:</p>
@@ -54,8 +56,10 @@ return (
                                 </td>
                                 <td>
                                     <p>means collectively any online facilities, tools, services or information that
-                                        <strong> RnD Tax Claims (Orcalo Limited) </strong>makes available through the Website either
-                                        now or in the future;</p>
+                                        <strong> RnD Tax Claims (Orcalo Limited) </strong>makes available through the
+                                        Website either
+                                        now or in the future;
+                                    </p>
                                     <p></p>
                                 </td>
                             </tr>
@@ -66,7 +70,7 @@ return (
                                 </td>
                                 <td>
                                     <p>means any online communications facility that We make available on Our Site
-                                        either now or in the future.  This may include, but is not limited to,
+                                        either now or in the future. This may include, but is not limited to,
                                         contact forms, email, and live chat;</p>
                                     <p></p>
                                 </td>
@@ -79,7 +83,8 @@ return (
                                 <td>
                                     <p>means RnD Tax Claims (Orcalo Limited)<strong>,</strong>a company incorporated in
                                         England (Registered Number <strong>13445423</strong>), and having its
-                                        Registered Office at <strong>Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, Uxbridge, UB11 1AF, United Kingdom</strong></p>
+                                        Registered Office at <strong>Office 77, Spaces Heathrow Airport, 4 Roundwood
+                                            Avenue, Stockley Park, Uxbridge, UB11 1AF, United Kingdom</strong></p>
                                     <p></p>
                                 </td>
                             </tr>
@@ -88,9 +93,9 @@ return (
                     <h3>2. Information About Us</h3>
                     <ul>
                         <li>Our Site is owned and operated by Us</li>
-                        <li>Our VAT number is <strong>__________</strong></li>
-                        <li>Our Data Protection Officer <strong>(enter name) </strong>and can be contacted by email, or
-                            by post at <strong>(enter email)</strong> <strong>(company name and address).</strong>
+                        <li>
+                            Our Data Protection Officer can be contacted by email, or by post at 
+                            <a href="contact-us@rndtaxclaims.co.uk">contact-us@rndtaxclaims.co.uk</a>
                         </li>
                     </ul>
                     <h3>3. Access to Our Site</h3>
