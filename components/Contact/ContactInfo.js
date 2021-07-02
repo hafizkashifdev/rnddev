@@ -51,8 +51,7 @@ const ContactInfo = () => {
                                 <i className='bx bx-time-five'></i>
                             </div>
                             <h3>Hours of Operation</h3>
-                            <p>Monday - Friday: 09:00 - 20:00</p>
-                            <p>Sunday & Saturday: 10:30 - 22:00</p>
+                            <p>Monday - Friday: 09:00 AM - 05:00 PM</p>                           
                         </div>
                     </div>
                 </div>

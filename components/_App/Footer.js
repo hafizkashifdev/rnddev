@@ -14,13 +14,17 @@ return (
                     <a href="/" className="logo">
                         <img src="/img/logo.png" alt="logo" />
                     </a>
-                    <p>
-                        RNDTAXCLAIMS Limited is a registered in Scotland with company number 12125945 Authorised and
+                    {/* <p>
+                        RnD Tax Claims Limited is a registered in Scotland with company number 12125945 Authorised and
                         regulated by the Financial Conduct Authority. RNDTAXCLAIMS is entered on the Financial
                         Services Register <a href="#">https://register.rndtaxclaims.org.uk/</a> under reference 945321.
                         <br/>
                         If you wish to register a complaint, please write to us at the address above or e-mail us at
                         complaints@rndtaxclaims.co.uk
+                    </p> */}
+                    <p>
+                    RnDTaxClaims (KALCULATOR LTD) is a company registered in England and Wales with registered
+                        company number 13445423.
                     </p>
                  
                     <ul className="social-link">
@@ -88,8 +92,7 @@ return (
                                     <a href="mailto:contact-us@rndtaxclaims.co.uk"> <i className='bx bx-envelope'></i>contact-us@rndtaxclaims.co.uk</a>
                                 </li>
                                 <li>
-                                    <i className="bx bx-time"></i>Monday - Friday: 09:00 - 20:00
-                                    <br /><i className="bx bx-time"></i>Sunday & Saturday: 10:30 - 22:00
+                                    <i className="bx bx-time"></i>Monday - Friday: 09:00 AM - 05:00 PM
                                 </li>
 
 
@@ -101,7 +104,7 @@ return (
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright &copy;{currentYear} All rights reserved by <strong> <a href="http://rndtaxclaims.co.uk">RND Tax Claims Limited</a>
+                            <p>Copyright &copy;{currentYear} All rights reserved by <strong> <a href="http://rndtaxclaims.co.uk">RnDTaxClaims (KALCULATOR LTD)</a>
                             </strong></p>
                         </div>
 
