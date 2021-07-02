@@ -12,7 +12,7 @@ return (
                     <p>
                     <ul>
                         <li>
-                            Reports completed fast and efficiently
+                            <b>Reports completed fast and efficiently</b>
                             <ul class="mt-0">
                                 o A professionally customised report for your R&D tax credit claim
                             </ul>
@@ -20,7 +20,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                            HMRC Tax compliant
+                            <b>HMRC Tax compliant</b>
                             <ul class="mt-0">
                                 o Our team reassures you as we ensure HMRC Tax compliance
                             </ul>
@@ -28,7 +28,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                            Fees lowest in the sector
+                            <b>Fees lowest in the sector</b>
                             <ul class="mt-0">
                                 o Fees from £300 with a ceiling of £1200 for claims under £100.000. Anything claim above
                                 £100,000 will be £1200 + 2.5% of amount above £100,000 with a ceiling of £7500.
@@ -37,7 +37,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                            Expert tax Adviser portal
+                            <b>Expert tax Adviser portal</b>
                             <ul class="mt-0">
                                 o We provide an R&D Tax credit expert to take you through your claim.
                             </ul>
@@ -45,7 +45,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                            Grants, SME and RDEC claims are confirmed automatically
+                            <b>Grants, SME and RDEC claims are confirmed automatically</b>
                             <ul class="mt-0">
                                 o Our software is designed to simplify and maximise your R&D claim
                             </ul>
@@ -53,7 +53,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                            Your time is our concern
+                            <b>Your time is our concern</b>
                             <ul class="mt-0">
                                 o We offer a complete online service from start to finish to minimise you time on the
                                 claim and
@@ -63,7 +63,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                            Calculations are generated in real-time.
+                            <b>Calculations are generated in real-time.</b>
                             <ul class="mt-0">
                                 o We give you an estimated figure at the start of your claim in order for you make a
                                 decision on
@@ -73,7 +73,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                            Accountant or business
+                           <b> Accountant or business</b>
                             <ul class="mt-0">
                                 o We can provide the most innovative and cost-effective online tool to assist
                                 Accountants and
