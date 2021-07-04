@@ -15,7 +15,12 @@ const RegisterYourInterestsInfo = () => {
                                 <i className='bx bx-map'></i>
                             </div>
                             <h3>Our Address</h3>
-                            <p>175 5th Ave, New York, NY 10010, United States</p>
+                             <p>
+                            <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA" target="_blank">
+                                Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, <br />
+                                Uxbridge, UB11 1AF<br /> United Kingdom
+                            </a>
+                        </p>
                         </div>
                     </div>
 
@@ -28,11 +33,11 @@ const RegisterYourInterestsInfo = () => {
                                 <i className='bx bx-phone-call'></i>
                             </div>
                             <h3>Contact</h3>
-                            <p>Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a></p>
-                            <p>E-mail: <a href="mailto:hello@tracer.com">hello@tarn.com</a></p>
+                           <p>Mobile: <a href="tel:+4447500287504">(+44) - 750028 - 7504</a></p>
+                    <p>E-mail: <a href="mailto:contact-us@rndtaxclaims.co.uk">contact-us@rndtaxclaims.co.uk</a></p> 
                         </div>
                     </div>
-
+ 
                     <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                         <div className="contact-info-box">
                             <div className="back-icon">
@@ -42,8 +47,7 @@ const RegisterYourInterestsInfo = () => {
                                 <i className='bx bx-time-five'></i>
                             </div>
                             <h3>Hours of Operation</h3>
-                            <p>Monday - Friday: 09:00 - 20:00</p>
-                            <p>Sunday & Saturday: 10:30 - 22:00</p>
+                            <p>Monday - Friday: 09:00 AM - 05:00 PM</p>
                         </div>
                     </div>
                 </div>
