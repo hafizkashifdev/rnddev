@@ -14,9 +14,9 @@ const RegisterYourInterests = () => {
                 homePageUrl="/" 
                 activePageText="Register Your Interests" 
             />  
+            
             <RegisterYourInterestsForm />
-
-<RegisterYourInterestsInfo />               
+            <RegisterYourInterestsInfo />               
             <Footer />
         </>
     );
