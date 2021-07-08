@@ -10,32 +10,42 @@ return (
             <div className="col-lg-12 col-md-12">
                 <div className="blog-details-desc">
                     <div className="article-content">
-                        <h3>Research & Development – Tax Credits</h3>
+
+                        <h3>How investing in AI will lead to economic growth?</h3>
                         <p>
-                            <b>Understanding Tax Credits</b> <br />
-                            Companies that innovate in the area of science and technology receive rewards as an
-                            incentive in the form of R&D Tax Credits. The HMRC introduced this incentive-based system to
-                            provide funds to companies that are developing innovative products or altering existing ones
-                            to create a better one. This tax relief program can give you a great opportunity to claim a
-                            good portion of your R&D expenditure as tax credits helping you reduce your tax bill. To be
-                            eligible for this scheme, you need to work in the area of research and development that adds
-                            value to the society irrespective of the sector you innovate in.
+                            The government announced in March 2021 that they have a new plan that will make UK a global
+                            hub for development, commercialization and adoption. As per them the AI strategy will focus
+                            on the following:
+                        </p>
+                        <ul className="features-list">
+                            <li><i className='bx bx-badge-check'></i> Widespread use of AI technologies adding to the
+                                growth of economy</li>
+                            <li><i className='bx bx-badge-check'></i> Ethical, safe and trustworthy development of
+                                responsible AI</li>
+                            <li><i className='bx bx-badge-check'></i> Resilience in the face of change through an
+                                emphasis on skills, talent and R&D</li>
+                        </ul>
+                        <div className="article-image text-center">
+                            <img src="/img/blog/rnd-blog-4.jpg" alt="image" className="w-75" />
+                        </div>
+                        <p>
+                            <br/>
+                            The government further added to their announcement that the National AI plan will support
+                            economic growth offering more jobs by investing significantly in skills, innovation and
+                            infrastructure. UK is looking up to a boost in R&D investment through government’s Research
+                            and Development Roadmap, to reach 2.4 percent of GDP by 2027.
+                            <br/>
+                            In the light of The future UK tech built, Tech Nation Report 2021 it is captivating to see
+                            R&D investment target indicating that there is a good amount of private investment in
+                            technology companies. The report also highlighted that tech investment in UK is third in the
+                            world hitting the record high of $15bn in 2020. As a consequence of this on the other hand,
+                            the investment in seed stage companies is reducing from 14% to 6% over 5 years.
+                            <br/>
+                            It is likely to be very challenging to grow and develop grass route skills in AI and support
+                            start-up and seed companies, to get early access to funding and investment – both of which
+                            are necessary ingredients for the UK Government’s ambition to be met.
 
                         </p>
-                        <p>
-                            <b>Eligibility for R&D Tax Credits</b> <br />
-                            Research & Development helps your business to grow giving a competitive edge through
-                            innovation. Most companies struggle for their survival depending on acquisitions and mergers
-                            to innovate. However, with R&D tax credit initiative, many businesses have been empowered
-                            due to sufficient funding supporting their innovation.
-                            <br />
-                            To be eligible for R&D Tax Relief, you need to meet the criteria: (1) UK based limited
-                            company subject to corporation tax (2) carried out research and development activities (3)
-                            expenditure on R&D projects
-                        </p>
-                        <div className="article-image text-center">
-                            <img src="/img/blog/rnd-blog-1.jpg" alt="image" className="w-75" />
-                        </div>
                     </div>
 
                     <div className="comments-area">

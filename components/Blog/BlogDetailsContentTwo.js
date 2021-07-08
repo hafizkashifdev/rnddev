@@ -10,31 +10,52 @@ return (
             <div className="col-lg-12 col-md-12">
                 <div className="blog-details-desc">
                     <div className="article-content">
-                        <h3>Research & Development – Tax Credits</h3>
-                        <p>
-                            <b>Understanding Tax Credits</b> <br />
-                            Companies that innovate in the area of science and technology receive rewards as an
-                            incentive in the form of R&D Tax Credits. The HMRC introduced this incentive-based system to
-                            provide funds to companies that are developing innovative products or altering existing ones
-                            to create a better one. This tax relief program can give you a great opportunity to claim a
-                            good portion of your R&D expenditure as tax credits helping you reduce your tax bill. To be
-                            eligible for this scheme, you need to work in the area of research and development that adds
-                            value to the society irrespective of the sector you innovate in.
 
-                        </p>
+                        <h3>Identify your R&D expense</h3>
+
                         <p>
-                            <b>Eligibility for R&D Tax Credits</b> <br />
-                            Research & Development helps your business to grow giving a competitive edge through
-                            innovation. Most companies struggle for their survival depending on acquisitions and mergers
-                            to innovate. However, with R&D tax credit initiative, many businesses have been empowered
-                            due to sufficient funding supporting their innovation.
-                            <br />
-                            To be eligible for R&D Tax Relief, you need to meet the criteria: (1) UK based limited
-                            company subject to corporation tax (2) carried out research and development activities (3)
-                            expenditure on R&D projects
+                            What counts as R&D confuses most of the project owners due to which they could not claim
+                            maximum tax relief. Knowing the in and out of these expenses can give your claim the boost
+                            it needs.
+                            <br/><br/>
+                            The first thing you need to understand is what counts as R&D expense and what does not
+                            count. Tax relief can be claimed on your operational costs but it can not be claimed on
+                            fixed assets.
+                            <br/><br/>
+                            We will help you identify R&D expense for your project. Some of the key areas you need to
+                            focus on are as follows:
                         </p>
+
+                        <h3>Four major elements that we offer:</h3>
+
+                        <ul className="features-list">
+                            <li>
+                                <i className='bx bx-badge-check'></i> Direct Staff Costs that you bear during the
+                                project for the permanent employees working on
+                                the project. For example, the gross salaries of your employees will be calculated to
+                                claim tax relief
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Software Costs which helped in the execution of
+                                R&D activities
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Consumables that are utilized in the project. For
+                                example, fuel and power can be included
+                                in your claim for tax relief
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Subcontracted Costs can be included in your claim
+                                to cover external services cost
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Volunteers specifically in case of medical centers
+                                is applicable if any cost is paid to
+                                them for their services
+                            </li>
+                        </ul>
                         <div className="article-image text-center">
-                            <img src="/img/blog/rnd-blog-1.jpg" alt="image" className="w-75" />
+                            <img src="/img/blog/rnd-blog-2.jpg" alt="image" className="w-75" />
                         </div>
                     </div>
 
@@ -238,6 +259,7 @@ return (
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>

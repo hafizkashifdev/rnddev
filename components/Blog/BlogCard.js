@@ -11,26 +11,35 @@ const BlogCard = () => {
                             <div className="post-image">
                                 <Link href="/blog-details">
                                     <a>
-                                        <img src="/img/blog/blog-img4.jpg" alt="image" />
+                                        <img src="/img/blog/rnd-blog-1.jpg" alt="image" />
                                     </a>
                                 </Link>
                             </div>
 
                             <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
-                                    <li>
-                                        <div className="post-author d-flex align-items-center">
-                                            <img src="/img/user1.jpg" className="rounded-circle" alt="image" />
-                                            <span>Alex Morgan</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i className='flaticon-calendar'></i> April 5, 2020
-                                    </li>
-                                </ul>
                                 <h3>
                                     <Link href="/blog-details">
-                                        <a>The Data Surrounding Higher Education</a>
+                                        <a>R&D Tax Credits</a>
+                                    </Link>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-blog-post bg-fffbf5">
+                            <div className="post-image-two">
+                                <Link href="/blog-details-two">
+                                    <a>
+                                        <img src="/img/blog/rnd-blog-2.jpg" alt="image" />
+                                    </a>
+                                </Link>
+                            </div>
+
+                            <div className="post-content">
+                                <h3>
+                                    <Link href="/blog-details-two">
+                                        <a>Identify your R&D expense</a>
                                     </Link>
                                 </h3>
                             </div>
@@ -40,28 +49,17 @@ const BlogCard = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-blog-post bg-fffbf5">
                             <div className="post-image">
-                                <Link href="/blog-details">
+                                <Link href="/blog-details-three">
                                     <a>
-                                        <img src="/img/blog/blog-img5.jpg" alt="image" />
+                                        <img src="/img/blog/rnd-blog-3.jpg" alt="image" />
                                     </a>
                                 </Link>
                             </div>
 
                             <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
-                                    <li>
-                                        <div className="post-author d-flex align-items-center">
-                                            <img src="/img/user2.jpg" className="rounded-circle" alt="image" />
-                                            <span>Sarah Taylor</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i className='flaticon-calendar'></i> April 6, 2020
-                                    </li>
-                                </ul>
                                 <h3>
-                                    <Link href="/blog-details">
-                                        <a>Conversion Rate the Sales Funnel Optimization</a>
+                                    <Link href="/blog-details-three">
+                                        <a>Preventing abuse of R&D tax relief for SMEs</a>
                                     </Link>
                                 </h3>
                             </div>
@@ -71,28 +69,17 @@ const BlogCard = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-blog-post bg-fffbf5">
                             <div className="post-image">
-                                <Link href="/blog-details">
+                                <Link href="/blog-details-four">
                                     <a>
-                                        <img src="/img/blog/blog-img6.jpg" alt="image" />
+                                        <img src="/img/blog/rnd-blog-4.jpg" alt="image" />
                                     </a>
                                 </Link>
                             </div>
 
                             <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
-                                    <li>
-                                        <div className="post-author d-flex align-items-center">
-                                            <img src="/img/user3.jpg" className="rounded-circle" alt="image" />
-                                            <span>David Warner</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i className='flaticon-calendar'></i> April7, 2020
-                                    </li>
-                                </ul>
                                 <h3>
-                                    <Link href="/blog-details">
-                                        <a>Business Data is changing the world’s Energy</a>
+                                    <Link href="/blog-details-four">
+                                        <a>How investing in AI will lead to economic growth?</a>
                                     </Link>
                                 </h3>
                             </div>
@@ -102,96 +89,22 @@ const BlogCard = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-blog-post bg-fffbf5">
                             <div className="post-image">
-                                <Link href="/blog-details">
+                                <Link href="/blog-details-five">
                                     <a>
-                                        <img src="/img/blog/blog-img7.jpg" alt="image" />
+                                        <img src="/img/blog/rnd-blog-5.jpg" alt="image" />
                                     </a>
                                 </Link>
                             </div>
 
                             <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
-                                    <li>
-                                        <div className="post-author d-flex align-items-center">
-                                            <img src="/img/user4.jpg" className="rounded-circle" alt="image" />
-                                            <span>David Warner</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i className='flaticon-calendar'></i> April 8, 2020
-                                    </li>
-                                </ul>
                                 <h3>
-                                    <Link href="/blog-details">
-                                        <a>The data-driven approach to understanding</a>
+                                    <Link href="/blog-details-five">
+                                        <a>Limitations of Automated R&D Tax Credit Solutions</a>
                                     </Link>
                                 </h3>
                             </div>
                         </div>
                     </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-blog-post bg-fffbf5">
-                            <div className="post-image">
-                                <Link href="/blog-details">
-                                    <a>
-                                        <img src="/img/blog/blog-img8.jpg" alt="image" />
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
-                                    <li>
-                                        <div className="post-author d-flex align-items-center">
-                                            <img src="/img/user5.jpg" className="rounded-circle" alt="image" />
-                                            <span>David Warner</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i className='flaticon-calendar'></i> April 9, 2020
-                                    </li>
-                                </ul>
-                                <h3>
-                                    <Link href="/blog-details">
-                                        <a>Finding the blocks of neighboring fields</a>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-blog-post bg-fffbf5">
-                            <div className="post-image">
-                                <Link href="/blog-details">
-                                    <a>
-                                        <img src="/img/blog/blog-img10.jpg" alt="image" />
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div className="post-content">
-                                <ul className="post-meta d-flex justify-content-between align-items-center">
-                                    <li>
-                                        <div className="post-author d-flex align-items-center">
-                                            <img src="/img/user6.jpg" className="rounded-circle" alt="image" />
-                                            <span>David Warner</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <i className='flaticon-calendar'></i> April 10, 2020
-                                    </li>
-                                </ul>
-                                <h3>
-                                    <Link href="/blog-details">
-                                        <a>Data into Your Enterprise to Drive Insights</a>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
- 
                     <div className="col-lg-12 col-md-12">
                         {/* Pagination */}
                         <div className="pagination-area text-center">

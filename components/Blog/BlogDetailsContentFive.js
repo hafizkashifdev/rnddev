@@ -10,32 +10,79 @@ return (
             <div className="col-lg-12 col-md-12">
                 <div className="blog-details-desc">
                     <div className="article-content">
-                        <h3>Research & Development – Tax Credits</h3>
-                        <p>
-                            <b>Understanding Tax Credits</b> <br />
-                            Companies that innovate in the area of science and technology receive rewards as an
-                            incentive in the form of R&D Tax Credits. The HMRC introduced this incentive-based system to
-                            provide funds to companies that are developing innovative products or altering existing ones
-                            to create a better one. This tax relief program can give you a great opportunity to claim a
-                            good portion of your R&D expenditure as tax credits helping you reduce your tax bill. To be
-                            eligible for this scheme, you need to work in the area of research and development that adds
-                            value to the society irrespective of the sector you innovate in.
 
-                        </p>
+                        <h3>Limitations of Automated R&D Tax Credit Solutions</h3>
+
                         <p>
-                            <b>Eligibility for R&D Tax Credits</b> <br />
-                            Research & Development helps your business to grow giving a competitive edge through
-                            innovation. Most companies struggle for their survival depending on acquisitions and mergers
-                            to innovate. However, with R&D tax credit initiative, many businesses have been empowered
-                            due to sufficient funding supporting their innovation.
+                            Many companies have been trying for decades to develop a software solution that could
+                            capture a company’s R&D tax credits completely but there are limitations that doesn’t allow
+                            them to accurately record all information. The main reason behind this failure is because
+                            the nature of R&D tax credit rules is interpretive and they are guided by 4-Part Test for
+                            R&D qualification. The systematic logics cannot fully capture the requirements of R&D which
+                            is why the automated solutions work only for a few.
                             <br />
-                            To be eligible for R&D Tax Relief, you need to meet the criteria: (1) UK based limited
-                            company subject to corporation tax (2) carried out research and development activities (3)
-                            expenditure on R&D projects
+                            The solutions that claim to be automated are not fully automated and this is the major flaw
+                            that leads to systematic failure. The basic requirement of these systems is to add
+                            individuals within organisations who have no experience of tax, let alone the experience
+                            with R&D tax credit, to determine qualifying expenditure. It leads to reduction in credits
+                            and puts additional burden on employees who don’t have the experience of tax. This impact is
+                            largely seen in areas where different types of Qualified Research Expenditure needs to be
+                            identified.
                         </p>
                         <div className="article-image text-center">
-                            <img src="/img/blog/rnd-blog-1.jpg" alt="image" className="w-75" />
+                            <img src="/img/blog/rnd-blog-5.jpg" alt="image" className="w-75" />
                         </div>
+                        <h3>Things You Need to Know About Automated R&D Tax Credit Software</h3>
+                        <p>
+                            Below are the points that you need to know about automated R&D tax credit software:
+                        </p>
+
+                        <ul className="features-list">
+                            <li>
+                                <i className='bx bx-badge-check'></i> Understanding Tax Credits and how to reflect time
+                                and cost within the software is key to
+                                the success of R&D project.
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Non-Compliance helps in identifying R&D activities
+                                and costs. Time tracking is subjective
+                                and often leads to understatement.
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Security is important as any automated R&D tax
+                                credit software would have to breach
+                                firewalls for any analysis.
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Calculation of federal and state credits is not
+                                included in the software as it only
+                                captures Qualified Research Activities (QRAs) leaving the QREs outside the system.
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Support QREs as automated systems will not include
+                                staff working on the project and they
+                                need to be considered outside the system.
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Code Variances as some software systems have
+                                algorithms that are designed to identify and
+                                determine qualifying expenditure.
+                            </li>
+                            <li>
+                                <i className='bx bx-badge-check'></i> Audit process is important to defend the project
+                            </li>
+                        </ul>
+
+                        <h3>Setting the mood with incense</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem.</p>
+
+                        <h3>The rise of marketing and why you need it</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                     </div>
 
                     <div className="comments-area">
@@ -238,6 +285,7 @@ return (
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
