@@ -98,21 +98,23 @@ const RegisterYourInterestsForm = () => {
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
                                             <input type="text" name="firstname" className="form-control" id="firstname" placeholder="First Name *" required maxLength="100"
-                                                pattern="^[a-zA-Z0-9 ]+$"
-                                                title="First Name is invalid" />
+                                                pattern="^[a-zA-Z ]+$"
+                                                title="First Name is invalid. Only alphabets are allowed." />
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
                                             <input type="text" name="lastname" className="form-control" id="lastname" placeholder="Last Name *" required maxLength="100"
-                                                pattern="^[a-zA-Z0-9 ]+$"
-                                                title="Last Name is invalid" />
+                                                pattern="^[a-zA-Z ]+$"
+                                                title="Last Name is invalid. Only alphabets are allowed." />
                                         </div>
                                     </div>
 
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <input type="email" name="email" className="form-control" id="email" placeholder="Email *" required maxLength="400" title="Email-id is invalid" />
+                                            <input type="email" name="email" className="form-control" id="email" placeholder="Email *" required maxLength="400"
+                                            pattern="^[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})$"
+                                            title="Email-id is invalid" />
                                         </div>
                                     </div>
 
