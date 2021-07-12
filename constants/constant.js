@@ -15,3 +15,4 @@ export const RYIBoardId = 1377220525
 export const AirTableBase = 'appPG7AJz7x2TTWT8'
 export const contactUstable = "Contact Us"
 export const RYItable = "Register Your Interest"
+export const phone_number_info = {}

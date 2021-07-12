@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import axios from "axios";
 import CountryInfo from "./CountryCode";
+import { phone_number_info } from '../../constants/constant';
 import ErrorInfo from "./ErrorInfo";
 import SuccessInfo from "./SuccessInfo";
 import Link from "next/link";
@@ -9,6 +10,8 @@ const ContactForm = () => {
     const [response, setresponse]= useState('')
      const registerUser = async event => {
          event.preventDefault()
+         const countryCode = phone_number_info.country.iso2.toUpperCase();
+         const phoneNumber = event.target.phone_number.value;
          axios.all([
              axios.post(`${ mondaymicrourl }/contact/savecontact`, {
                  Title: event.target.title.value,
@@ -16,8 +19,8 @@ const ContactForm = () => {
                  LastName: event.target.lastname.value,
                  Company: event.target.company.value,
                  CompanyDesignation: event.target.companydesignation.value,
-                 Phone: event.target.phone_number.value,
-                 PhoneShortCode: event.target.phone_country.value,
+                 Phone: phoneNumber,
+                 PhoneShortCode: countryCode,
                  Email: event.target.email.value,
                  Comments: event.target.message.value,
                  board: ContactBoardId
@@ -28,7 +31,7 @@ const ContactForm = () => {
                  LastName: event.target.lastname.value,
                  Company: event.target.company.value,
                  CompanyDesignation: event.target.companydesignation.value,
-                 Phone: event.target.phone_country.value + "" + event.target.phone_number.value,
+                 Phone: countryCode + "" + phoneNumber,
                  Email: event.target.email.value,
                  Comments: event.target.message.value,
                  base: AirTableBase,

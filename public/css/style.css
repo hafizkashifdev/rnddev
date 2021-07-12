@@ -71,6 +71,16 @@ Default CSS
   scroll-behavior: inherit;
 }
 
+/* Country code dropdown and phone number in Contact Us and Register Your Interest Forms*/
+.react-tel-input {
+  width: 23% !important;
+  float: left;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+/* ################## */
+
 body {
   padding: 0;
   margin: 0;

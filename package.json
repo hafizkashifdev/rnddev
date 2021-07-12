@@ -20,6 +20,7 @@
         "react-image-lightbox": "^5.1.1",
         "react-modal-video": "^1.2.6",
         "react-owl-carousel3": "^2.2.5",
+        "react-phone-input-2": "^2.14.0",
         "recoil": "0.0.10",
         "sass": "^1.32.10"
     }

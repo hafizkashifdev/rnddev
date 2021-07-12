@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from "axios";
-import CountryInfo from "./CountryCode";
+// import CountryInfo from "./CountryCode";
+import CountryInfo from '../Contact/CountryCode';
+import { phone_number_info } from '../../constants/constant';
 import { mondaymicrourl, airtablemicrourl, twilliotablemicrourl, emailhtml, emailtitle, contactUstable, AirTableBase, ContactBoardId, RYIBoardId, RYItable } from "../../constants/constant";
 import ErrorInfo from "./ErrorInfo";
 import SuccessInfo from "./SuccessInfo";
@@ -9,6 +11,8 @@ const RegisterYourInterestsForm = () => {
     const [response, setresponse] = useState('')
     const registerUser = async event => {
         event.preventDefault()
+        const countryCode = phone_number_info.country.iso2.toUpperCase();
+        const phoneNumber = event.target.phone_number.value;
         axios.all([
             axios.post(`${mondaymicrourl}/contact/saveinterset`, {
                 Title: event.target.title.value,
@@ -16,8 +20,8 @@ const RegisterYourInterestsForm = () => {
                 LastName: event.target.lastname.value,
                 Company: event.target.company.value,
                 CompanyDesignation: event.target.companydesignation.value,
-                Phone: event.target.phone_number.value,
-                PhoneShortCode: event.target.phone_country.value,
+                Phone: phoneNumber,
+                PhoneShortCode: countryCode,
                 Email: event.target.email.value,
                 Type: 'Customer', // always customer
                 message: event.target.message.value,
@@ -29,7 +33,7 @@ const RegisterYourInterestsForm = () => {
                 LastName: event.target.lastname.value,
                 Company: event.target.company.value,
                 CompanyDesignation: event.target.companydesignation.value,
-                Phone: event.target.phone_country.value + "" + event.target.phone_number.value,
+                Phone: countryCode + "" + phoneNumber,
                 Email: event.target.email.value,
                 message: event.target.message.value,
                 base: AirTableBase,
