@@ -61,12 +61,6 @@ return (
                                             when an unknown printer took a galley of type and scrambled it to make a
                                             type specimen.</p>
                                     </div>
-
-                                    <div className="reply">
-                                        <Link href="#">
-                                        <a className="comment-reply-link">Reply</a>
-                                        </Link>
-                                    </div>
                                 </div>
 
                                 <ol className="children">
@@ -91,10 +85,6 @@ return (
                                                     the 1500s, when an unknown printer took a galley of type and
                                                     scrambled it to make a type specimen.</p>
                                             </div>
-
-                                            <div className="reply">
-                                                <a href="#" className="comment-reply-link">Reply</a>
-                                            </div>
                                         </div>
 
                                         <ol className="children">
@@ -118,12 +108,6 @@ return (
                                                         <p>Lorem Ipsum has been the industry’s standard dummy text ever
                                                             since the 1500s, when an unknown printer took a galley of
                                                             type and scrambled it to make a type specimen.</p>
-                                                    </div>
-
-                                                    <div className="reply">
-                                                        <Link href="#">
-                                                        <a className="comment-reply-link">Reply</a>
-                                                        </Link>
                                                     </div>
                                                 </div>
                                             </li>
@@ -154,11 +138,6 @@ return (
                                             type specimen.</p>
                                     </div>
 
-                                    <div className="reply">
-                                        <Link href="#">
-                                        <a className="comment-reply-link">Reply</a>
-                                        </Link>
-                                    </div>
                                 </div>
 
                                 <ol className="children">
@@ -182,12 +161,6 @@ return (
                                                 <p>Lorem Ipsum has been the industry’s standard dummy text ever since
                                                     the 1500s, when an unknown printer took a galley of type and
                                                     scrambled it to make a type specimen.</p>
-                                            </div>
-
-                                            <div className="reply">
-                                                <Link href="#">
-                                                <a className="comment-reply-link">Reply</a>
-                                                </Link>
                                             </div>
                                         </div>
                                     </li>
@@ -214,20 +187,10 @@ return (
                                     <input type="email" id="email" placeholder="Your Email*" name="email"
                                         required="required" />
                                 </p>
-                                <p className="comment-form-url">
-                                    <label>Website</label>
-                                    <input type="url" id="url" placeholder="Website" name="url" />
-                                </p>
                                 <p className="comment-form-comment">
                                     <label>Comment</label>
                                     <textarea name="comment" id="comment" cols="45" placeholder="Your Comment..."
                                         rows="5" required="required"></textarea>
-                                </p>
-                                <p className="comment-form-cookies-consent">
-                                    <input type="checkbox" value="yes" name="comment-cookies-consent"
-                                        id="comment-cookies-consent" />
-                                    <label>Save my name, email, and website in this browser for the next time I
-                                        comment.</label>
                                 </p>
                                 <p className="form-submit">
                                     <input type="submit" name="submit" id="submit" className="submit"
