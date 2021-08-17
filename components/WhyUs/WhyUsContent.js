@@ -30,7 +30,7 @@ return (
                         <li>
                             <b>Fees lowest in the sector</b>
                             <ul class="mt-0">
-                                o Fees from £300 with a ceiling of £1200 for claims under £100.000. Anything claim above
+                                o Fees from £300 with a ceiling of £1200 for claims under £100,000. Anything claim above
                                 £100,000 will be £1200 + 2.5% of amount above £100,000 with a ceiling of £7500.
                             </ul>
                         </li>
@@ -55,7 +55,7 @@ return (
                         <li>
                             <b>Your time is our concern</b>
                             <ul class="mt-0">
-                                o We offer a complete online service from start to finish to minimise you time on the
+                                o We offer a complete online service from start to finish to minimise your time on the
                                 claim and
                                 allow you to maintain your focus on running the business.
                             </ul>
@@ -73,7 +73,7 @@ return (
                     </ul>
                     <ul>
                         <li>
-                           <b> Accountant or business</b>
+                           <b>Assist Accountants and Businesses</b>
                             <ul class="mt-0">
                                 o We can provide the most innovative and cost-effective online tool to assist
                                 Accountants and
