@@ -11526,8 +11526,10 @@ Privacy Policy Area CSS
 .privacy-policy-content img {
   border-radius: 5px;
   display: block;
-  width: 100%;
+  width: 70%;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .privacy-policy-content h3 {
@@ -11584,6 +11586,8 @@ Terms of Service Area CSS
   display: block;
   width: 100%;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .terms-of-service-content h3 {
