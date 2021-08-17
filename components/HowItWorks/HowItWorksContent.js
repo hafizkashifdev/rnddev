@@ -9,9 +9,8 @@ return (
             <div className="col-lg-12 col-md-12">
                 <div className="privacy-policy-content">
                     <h3>
-                        We are designed to provide our Clients with data with accuracy , so they can make an informed
-                        decisions. By following the simple steps , you can make your Tax process so much easier and
-                        efficient.
+                        We are designed to provide our Clients with data accuracy, so they can make informed decisions. 
+                        By following simple steps you can make your Tax process so much easier and efficient.
                     </h3>
                     
                     <p>
@@ -31,14 +30,12 @@ return (
                         <img src="/img/how-its-work.png" alt="" />
                     </div>
                     
-                    <h3>What costs qualify for R&D tax credits?</h3>
+                    <h3>Submit the claims to HMRC</h3>
                     <div class="width-60-center">
                         <img src="/img/How-it-works-two.png" alt="" />
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </section>
