@@ -3,7 +3,6 @@ import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
 import RegisterYourInterestsForm  from '../components/RegisterYourInterests/RegisterYourInterestsForm';
-import RegisterYourInterestsInfo  from '../components/RegisterYourInterests/RegisterYourInterestsInfo';
 const RegisterYourInterests = () => {
     return (
         <>
@@ -15,8 +14,7 @@ const RegisterYourInterests = () => {
                 activePageText="Register Your Interests" 
             />  
             
-            <RegisterYourInterestsForm />
-            <RegisterYourInterestsInfo />               
+            <RegisterYourInterestsForm />             
             <Footer />
         </>
     );
