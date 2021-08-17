@@ -10,7 +10,7 @@ const TermsAndConditions = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Terms and Conditions" 
+                // pageTitle="Terms and Conditions" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Terms and Conditions" 

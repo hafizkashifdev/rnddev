@@ -9,7 +9,7 @@ const RegisterYourInterests = () => {
         <>
             <Navbar />
             <PageBanner
-                pageTitle="Register Your Interests" 
+                // pageTitle="Register Your Interests" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Register Your Interests" 

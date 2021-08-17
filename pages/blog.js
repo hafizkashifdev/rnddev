@@ -8,7 +8,7 @@ const RegisterYourInterests = () => {
         <>
             <Navbar />
             <PageBanner
-                pageTitle="Blog" 
+                // pageTitle="Blog" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Blog" 

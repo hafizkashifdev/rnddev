@@ -9,7 +9,7 @@ const WhatWeDo = () => {
         <>
             <Navbar />
             <PageBanner
-                pageTitle="Why Us" 
+                // pageTitle="Why Us" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Why Us" 

@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Privacy Policy" 
+                // pageTitle="Privacy Policy" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Privacy Policy" 

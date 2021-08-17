@@ -11,7 +11,7 @@ const Contact = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Contact us" 
+                // pageTitle="Contact us" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Contact us" 

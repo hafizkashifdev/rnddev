@@ -9,7 +9,7 @@ const HowItWorks = () => {
         <>
             <Navbar />
             <PageBanner
-                pageTitle="How it Works" 
+                // pageTitle="How it Works" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="How it Works" 

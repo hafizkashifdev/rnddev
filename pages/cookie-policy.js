@@ -10,7 +10,7 @@ const CookiePolicy = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Cookie Policy" 
+                // pageTitle="Cookie Policy" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Cookie Policy" 
