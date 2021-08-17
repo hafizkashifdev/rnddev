@@ -18,26 +18,34 @@ return (
                         We will make R&D claim an easy, hassle free process from end to end.
                     </p>
                     <div className="text-center">
-                        <img src="/img/about-us.png" alt="image" class="py-3" />
+                        <img src="/img/about-us.png" alt="image" class="pt-3 pb-5" />
                     </div>
-                    <h3>We will ensure:</h3>
-                    <p>
-                        <ul>
-                            <li>HMRC compliance</li>
-                            <li>Simple process</li>
-                            <li>Expert guidance</li>
-                            <li>R&D calculation - estimate or final</li>
-                            <li>R&D project report creation for submission to HMRC</li>
-                        </ul>
-                        We specialise in R&D Tax Credit claims for organisations of all sizes.
-                        <br/>
-                        We have in-house experts ready to guide you through a claim step by step.
-                        <br/>
-                        Our services and pricing are tailored and structured to suit all organisations.
-                    </p>
-                    <div className="text-center">
-                        <img src="/img/about-us-one.png" alt="image" class="py-3" />
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h3>We will ensure:</h3>
+                            <p>
+                                <ul>
+                                    <li>HMRC compliance</li>
+                                    <li>Simple process</li>
+                                    <li>Expert guidance</li>
+                                    <li>R&D calculation - estimate or final</li>
+                                    <li>R&D project report creation for submission to HMRC</li>
+                                </ul>
+                                We specialise in R&D Tax Credit claims for organisations of all sizes.
+                                <br/>
+                                We have in-house experts ready to guide you through a claim step by step.
+                                <br/>
+                                Our services and pricing are tailored and structured to suit all organisations.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <div className="text-center">
+                                <img src="/img/about-us-one.png" alt="image"  />
+                            </div>
+                        </div>
                     </div>
+                    
+                    
                     
                 </div>
             </div>
