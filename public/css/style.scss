@@ -459,6 +459,10 @@ Navbar Area CSS
         left: 0;
         right: 0;
       }
+
+      img{
+        max-width: inherit;
+      }
     }
     ul {
       padding-left: 0;
