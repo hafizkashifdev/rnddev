@@ -1,5 +1,10 @@
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
+  /* Country code dropdown and phone number in Contact Us and Register Your Interest Forms*/
+  .react-tel-input {
+    width: 36% !important;
+  }
+  /* ################## */
   .img-50-center {
     width: 100%;
   }

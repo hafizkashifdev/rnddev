@@ -199,6 +199,17 @@ a:hover {
   vertical-align: baseline;
 }
 
+/* Country code dropdown and phone number in Contact Us and Register Your Interest Forms*/
+.react-tel-input {
+  width: 23% !important;
+  float: left;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+
+/* ################## */
 .width-60-center {
   width: 80%;
   margin-left: auto;

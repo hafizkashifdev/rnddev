@@ -13,11 +13,17 @@ $value_nine: 1550px;
 
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_two) {
+  /* Country code dropdown and phone number in Contact Us and Register Your Interest Forms*/
+  .react-tel-input {
+    width: 36% !important;
+  }
+  /* ################## */
+
   // img-50-center
-.img-50-center {
-  width: 100%;
-}
-// img-50-center
+  .img-50-center {
+    width: 100%;
+  }
+  // img-50-center
   .navbar-brand {
     img {
       width: 70px;
