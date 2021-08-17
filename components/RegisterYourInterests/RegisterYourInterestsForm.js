@@ -117,7 +117,7 @@ const RegisterYourInterestsForm = () => {
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
                                             <input type="email" name="email" className="form-control" id="email" placeholder="Email *" required maxLength="400"
-                                            pattern="^[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})$"
+                                            pattern="^(?!.*?\.\.)[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})$"
                                             title="Email-id is invalid" />
                                         </div>
                                     </div>
@@ -151,7 +151,7 @@ const RegisterYourInterestsForm = () => {
 
                                      <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <label>By submitting the form you accept <Link href='/terms-and-conditions/'><a>Terms & Conditions</a></Link> and <Link href='/privacy-policy/'><a>Privacy Policy</a></Link></label>
+                                            <label><input type="checkbox" required /> By submitting the form you accept <Link href='/terms-and-conditions/'><a>Terms & Conditions</a></Link> and <Link href='/privacy-policy/'><a>Privacy Policy</a></Link></label>
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-md-12">
