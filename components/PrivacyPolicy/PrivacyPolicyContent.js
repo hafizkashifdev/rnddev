@@ -33,7 +33,7 @@ return (
                     <h3>How to contact us</h3>
                     <p>Questions, comments and requests regarding this policy are welcomed and should be addressed to
                         our Data Privacy Manager by email or post at:</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -79,7 +79,7 @@ return (
                         website you visit.</p>
                     <h3>How is your personal data collected?</h3>
                     <p>We use different methods to collect data from and about you including through:</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -135,7 +135,7 @@ return (
                     </table>
                     <p>We may collect and process different kinds of personal data about you depending on our
                         relationship with you. This may include the following:</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -213,10 +213,10 @@ return (
                     <p>We will only use your personal data when the law allows us to. Most commonly, we will use your
                         personal data in the following circumstances:</p>
                     <ul>
-                        <li>Where we have your prior<strong>consent</strong>to use your personal data (e.g.
+                        <li>Where we have your prior <strong> consent </strong>to use your personal data (e.g.
                             where you have consented to receiving marketing).</li>
-                        <li>Where we need to comply with a<strong>legal or regulatory obligation.</strong></li>
-                        <li>Where it is necessary for our<strong>legitimate interests</strong>(or those of a
+                        <li>Where we need to comply with a <strong>legal or regulatory obligation.</strong></li>
+                        <li>Where it is necessary for our <strong>legitimate interests</strong> (or those of a
                             third party) and your interests and fundamental rights do not override those interests</li>
                     </ul>
                     <p>We have set out below, in a table format, a description of all the ways we plan to use your
@@ -226,7 +226,7 @@ return (
                         which we are using your data. Please<a href="mailto:%20dpo@whisperclaims.co.uk">contact
                             us</a>if you need details about the specific legal ground we are relying on to process
                         your personal data where more than one ground has been set out in the table below.</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -345,7 +345,7 @@ return (
                     <p>We will only use your personal data for the purposes for which we collected it, unless we
                         reasonably consider that we need to use it for another reason and that reason is compatible with
                         the original purpose. If you wish to get an explanation as to how the processing for the new
-                        purpose is compatible with the original purpose, please<a
+                        purpose is compatible with the original purpose, please <a
                             href="mailto:%20dpo@whisperclaims.co.uk">contact us</a>.</p>
                     <p>If we need to use your personal data for an unrelated purpose, we will notify you and we will
                         explain the lawful basis which allows us to do so.</p>
@@ -356,7 +356,7 @@ return (
                     <h3>Disclosure of your information</h3>
                     <p>We may have to share your personal information for the purposes set out above with the following
                         third parties:</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -416,12 +416,12 @@ return (
                         afforded to it by ensuring at least one of the following safeguards is implemented:</p>
                     <ul>
                         <li>The country or organisation has been deemed to provide an adequate level of protection for
-                            personal data by the European Commission. For further details, see<a
+                            personal data by the European Commission. For further details, see <a
                                 href="https://www.whisperclaims.co.uk/website-privacy-policy/%22https:/ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_lt@">European
                                 Commission: Adequacy of the protection of personal data in non-EU countries</a>.</li>
                         <li>If we use certain service providers based outwith the EU, we may use specific contracts
                             approved by the European Commission which give personal data the same protection it has in
-                            Europe. For further details, see<a
+                            Europe. For further details, see <a
                                 href="https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en"><em>European
                                     Commission: Model contracts for the transfer of personal data to third
                                     countries</em></a><a
@@ -429,7 +429,7 @@ return (
                         </li>
                         <li>If we use providers based in the US, we may transfer data to them if they are part of
                             thePrivacyShield which requires them to provide similar protection to personal
-                            data shared between the Europe and the US. For further details, see<a
+                            data shared between the Europe and the US. For further details, see <a
                                 href="https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu/eu-us-privacy-shield_en"><em>European
                                     Commission: EU-USPrivacyShield</em></a><em>.</em></li>
                         <li>In any other case, we will obtain your explicit consent before any transfer takes place.
@@ -437,7 +437,7 @@ return (
                     </ul>
                     <p>The table below sets out details of the service providers we use outside of the EU and the
                         relevant safeguards in place.</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -455,7 +455,7 @@ return (
                                     <p>Amazon Web Services</p>
                                 </td>
                                 <td>
-                                    <p>Cloud/platform hosting</p>
+                                    <p>Cloud / platform hosting</p>
                                 </td>
                                 <td>
                                     <p>Privacy Shield</p>
@@ -466,7 +466,7 @@ return (
                                     <p>Heroku</p>
                                 </td>
                                 <td>
-                                    <p>Cloud/platform hosting</p>
+                                    <p>Cloud / platform hosting</p>
                                 </td>
                                 <td>
                                     <p>Privacy Shield</p>
@@ -485,7 +485,7 @@ return (
                             </tr>
                         </tbody>
                     </table>
-                    <p>Please<a href="mailto:%20dpo@whisperclaims.co.uk">contact us</a>if you want further
+                    <p>Please <a href="mailto:%20dpo@whisperclaims.co.uk"> contact us </a> if you want further
                         information on the specific mechanism used by us when transferring your personal data out of the
                         EEA.</p>
                     <h3>Data Security</h3>
@@ -507,9 +507,9 @@ return (
                         disclosure of your personal data, the purposes for which we process your personal data and
                         whether we can achieve those purposes through other means, and the applicable legal
                         requirements.</p>
-                    <p>Below we set out the key retention periods. Further details can be obtained by<a
+                    <p>Below we set out the key retention periods. Further details can be obtained by <a
                             href="mailto:%20dpo@whisperclaims.co.uk">contacting us</a>.</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -561,9 +561,9 @@ return (
                                     <p>Cookie data</p>
                                 </td>
                                 <td>
-                                    <p>Please see our<a
+                                    <p>Please see our <a
                                             href="https://www.whisperclaims.co.uk/whisperclaims-cookie-policy/">Cookie
-                                            Policy</a>for details.</p>
+                                            Policy </a>for details.</p>
                                 </td>
                             </tr>
                         </tbody>
@@ -575,12 +575,12 @@ return (
                     <p>Our website uses cookies to help it function and to improve it. Cookies are small files saved to
                         the users computers hard drive that track, save and store information about the
                         users interactions and usage of the website. For information about the cookies we use,
-                        please see our<a href="https://www.whisperclaims.co.uk/whisperclaims-cookie-policy/">Cookie
+                        please see our <a href="https://www.whisperclaims.co.uk/whisperclaims-cookie-policy/">Cookie
                             Policy</a>.</p>
                     <h3>Your rights</h3>
                     <p>Under certain circumstances, you have rights under data protection laws in relation to your
                         personal data. Please read through the table below to find out more about these rights.</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
@@ -638,7 +638,7 @@ return (
                                     <p>You have the right to stop us processing your personal data for direct marketing
                                         purposes. Often, you can exercise your right to prevent such marketing by
                                         checking certain boxes on the forms we use to collect your data. You can also
-                                        exercise the right at any time by<a
+                                        exercise the right at any time by <a
                                             href="mailto:%20dpo@whisperclaims.co.uk">contacting us</a>. You may also
                                         object to us processing your personal data where we are relying on a legitimate
                                         interest (or those of a third party) and there is something about your
@@ -684,14 +684,14 @@ return (
                                     <p>You will always have the right to lodge a complaint with a supervisory body. The
                                         relevant authority in the UK is the Information Commissioners Office. If
                                         you do have a complaint, we would appreciate the chance to deal with your
-                                        concerns before you approach the ICO, so please do<a
-                                            href="mailto:%20dpo@whisperclaims.co.uk">contact us</a>in the first
+                                        concerns before you approach the ICO, so please do <a
+                                            href="mailto:%20dpo@whisperclaims.co.uk">contact us</a> in the first
                                         instance if possible.</p>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-                    <p>If you wish to exercise any of the rights set out above, please<a
+                    <p>If you wish to exercise any of the rights set out above, please <a
                             href="mailto:%20dpo@whisperclaims.co.uk">contact us</a>. You wont normally have to
                         pay a fee to access your personal data (or to exercise any of the other rights). However, we may
                         charge a reasonable fee if your request is clearly unfounded, repetitive or excessive.

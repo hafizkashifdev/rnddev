@@ -20,7 +20,7 @@ return (
                     <h3>1. Definitions and Interpretation</h3>
                     <p>In these Terms and Conditions, unless the context otherwise requires, the following expressions
                         have the following meanings:</p>
-                    <table>
+                    <table className="table">
                         <tbody>
                             <tr>
                                 <td>
