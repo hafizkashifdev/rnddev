@@ -23,14 +23,36 @@ return (
                     <div class="row">
                         <div class="col-sm-6">
                             <h3>We will ensure:</h3>
+                            <div className="about-area">
+                                <div className="about-content">
+                                    <div className="content">
+                                        <ul className="about-list mb-0">
+                                            <li>
+                                                <i className="flaticon-tick"></i>
+                                                HMRC compliance
+                                            </li>
+                                            <li>
+                                                <i className="flaticon-tick"></i>
+                                                Simple process
+                                            </li>
+                                            <li>
+                                                <i className="flaticon-tick"></i>
+                                                Expert guidance
+                                            </li>
+                                            <li>
+                                                <i className="flaticon-tick"></i>
+                                                R&D calculation - estimate or final
+                                            </li>
+                                            <li>
+                                                <i className="flaticon-tick"></i>
+                                                R&D project report creation for submission to HMRC
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             <p>
-                                <ul>
-                                    <li>HMRC compliance</li>
-                                    <li>Simple process</li>
-                                    <li>Expert guidance</li>
-                                    <li>R&D calculation - estimate or final</li>
-                                    <li>R&D project report creation for submission to HMRC</li>
-                                </ul>
+                                <br/>
                                 We specialise in R&D Tax Credit claims for organisations of all sizes.
                                 <br/>
                                 We have in-house experts ready to guide you through a claim step by step.
