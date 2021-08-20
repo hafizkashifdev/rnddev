@@ -9,9 +9,13 @@ return (
             <div class="col-sm-12">
                 <h3>The simplest way is the right way. R&D Tax credit claims simplified</h3>
             </div>
+            <div className="col-lg-12">
+                <div className="privacy-policy-content pt-3">
+                    <img src="/img/why-us-rnd.png" alt="" />
+                </div>
+            </div>
             <div className="col-lg-6">
                 <div className="privacy-policy-content">
-                    
                     <div className="about-area">
                         <div className="about-content">
                             <div className="content">
@@ -116,12 +120,6 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="col-lg-12">
-                <div className="privacy-policy-content pt-3">
-                    <img src="/img/why-us-rnd.jpg" alt="" />
-                </div>
-            </div>
-
 
         </div>
     </div>
