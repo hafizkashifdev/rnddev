@@ -36,8 +36,7 @@ const FeaturedService = () => {
                             <p className="text-center" style={{ marginBottom: '45px' }}>
                                Want to chat with us? <br/>
                                You can <a href="https://api.whatsapp.com/send?I=nl&phone=+4407500287504&text=Hi+Customer+relationship+officer+%2C+I+am+interested+in+RnDTaxClaims+and+...." target="_blank" style={{ color: '#25D366' }}>chat with us</a> <br/>
-                               from Monday to Sunday, <br/>
-                               08:00 am - 08:00 pm
+                               from Monday - Friday: <br/> 09:00 AM - 05:00 PM
                             </p>
                             <div className="shape1">
                                 <img src="/img/services/service-shape2.png" alt="image" />
@@ -58,8 +57,7 @@ const FeaturedService = () => {
                             Want to talk to us over <br/>
                             the phone about specific <br/>
                             questions? You can call us at <br/>
-                            <a href="tel:+447500287504" style={{ color: '#25D366' }}> (+44) - 750028 - 7504</a> from Monday to Sunday,
-                               08:00 am - 08:00 pm
+                            <a href="tel:+447500287504" style={{ color: '#25D366' }}> (+44) - 750028 - 7504</a> from Monday - Friday: 09:00 AM - 05:00 PM
                             </p>
                             <div className="shape1">
                                 <img src="/img/services/service-shape2.png" alt="image" />
