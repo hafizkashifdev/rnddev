@@ -2140,7 +2140,6 @@ About Area CSS
 }
 .about-content {
   .content {
-    max-width: 585px;
 
     .sub-title {
       position: relative;
@@ -2232,8 +2231,7 @@ About Area CSS
         right: -15px;
       }
       li {
-        width: 45%;
-        float: left;
+        width: 95%;
         margin: {
           left: 15px;
           right: 15px;
@@ -2241,28 +2239,28 @@ About Area CSS
         margin-top: 30px;
         position: relative;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-        padding: 20px 15px 20px 68px;
+        padding: 10px 10px 10px 55px;
         border-radius: 5px;
         z-index: 1;
         background-color: $white-color;
 
         font: {
-          size: 19px;
-          weight: 800;
+          size: 16px;
+          weight: 700;
         }
         i {
           position: absolute;
-          left: 15px;
+          left: 10px;
           top: 50%;
           transform: translateY(-50%);
           border-radius: 3px;
-          width: 40px;
-          height: 40px;
-          line-height: 41px;
+          width: 30px;
+          height: 30px;
+          line-height: 31px;
           text-align: center;
           transition: $transition;
           background-color: #deecf4;
-          font-size: 20px;
+          font-size: 15px;
         }
         img {
           position: absolute;

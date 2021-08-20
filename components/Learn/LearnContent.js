@@ -3,17 +3,15 @@ import Link from 'next/link';
 
 const LearnContent = () => {
 return (
-<section className="privacy-policy-area">
+<section className="privacy-policy-area pb-4">
     <div className="container">
         <div className="row">
             <div className="col-lg-12 col-md-12">
                 <div className="privacy-policy-content">
                     <blockquote className="blockquote">
                         <p>
-                            What is R&D Tax Credits?
+                            What is R&D Tax Credits? We explain in simple terms
                         <p></p>
-                        We explain in simple terms
-
                         Research and Development (R&D) tax relief initiative supports companies that work on innovation
                         in the field of science and technology. Tax relief can be claimed by companies that are looking
                         for funds to support their research or develop an advance in their field. It can be claimed even
@@ -31,19 +29,35 @@ return (
                         qualify for R&D relief. The qualified work for R&D relief must be entitled to a specific project
                         to bring innovation in science and technology. Innovation in the field of social science is not
                         considered eligible for tax relief.
-
-
                     </p>
 
                     <p> To get R&D relief your project needs to fulfill the following parameters:</p>
-
-                    <ul>
-                        <li>Innovation in science and technology</li>
-                        <li>Had to overcome uncertainty</li>
-                        <li>Tried to overcome this uncertainty</li>
-                        <li>Could not be easily worked out by a professional in the field</li>
-
-                    </ul>
+                    <div className="about-area">
+                        <div className="about-content">
+                            <div class="col-sm-6">
+                                <div className="content">
+                                    <ul className="about-list mb-0">
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Innovation in science and technology
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Had to overcome uncertainty
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Tried to overcome this uncertainty
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Could not be easily worked out by a professional in the field
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <p>Your project may research or develop a new product, service or process or help in the improvement
                         on an existing one.</p>
@@ -84,164 +98,241 @@ return (
                     <p>Research and development (R&D) tax credits program is an initiative taken by the government to
                         give incentives to companies investing in the field of innovation. Research and Development
                         projects is a valuable source of income stream for businesses to invest that helps them
-                        accelerate hiring process consequently leading to growth.</p>
+                        accelerate hiring process consequently leading to growth.
+                    </p>
+                    <h2>How do R&D tax credits work?</h2>
+                    <p>
+                        Projects that invest in the development of new services, products or processes are eligible for
+                        R&D tax relief. Your project can receive cash payment if you have invested on innovation. If you
+                        are creating the claim for the first time to claim tax relief, you can file it for the last two
+                        completed accounting periods.
+                    </p>
 
+                    <h2>How to know your eligibility for R&D tax credits?</h2>
+                    <p>
+                        To be eligible for R&D tax relief and avail the benefits of this incentive, you must fulfill the
+                        following criteria:
+                    </p>
 
-                    <h2>Is my business eligible for R&D tax credits?</h2>
-                    <p>To benefit from R&D tax incentives, you must:</p>
-                    <ul>
-                        <li>Be a limited company in the UK that is subject to Corporation Tax.</li>
-                        <li>Have carried out qualifying research and development activities.</li>
-                        <li>Have spent money on these projects.</li>
-                    </ul>
-
-
+                    <div className="about-area">
+                        <div className="about-content">
+                            <div class="col-sm-6">
+                                <div className="content">
+                                    <ul className="about-list mb-0">
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Be a limited company in the UK that is subject to Corporation Tax.
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Have carried out qualifying research and development activities.
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Have spent money on these projects.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <h2>Who qualifies for R&D tax credits?</h2>
-                    <p>R&D can take place in any sector. It occurs in everything from wine-making to clinical
-                        bioengineering, and construction to software development.</p>
-
-
-                    <h2> What counts as R&D?</h2>
-
-                    <p>The government’s R&D criteria are purposefully broad. Whatever size or sector, if your company is
-                        taking a risk by attempting to ‘resolve scientific or technological uncertainties’ then you may
-                        be carrying out qualifying activity.
-                        <br />This could include:
+                    <p>
+                        R&D is open to all areas for innovation and does not restrict any domain.
                     </p>
 
 
-
-
-                    <p>Creating new products, processes or services</p>
-
-                    <p>Changing or modifying an existing product, process or service</p>
-
-                    <p>If you’re not sure if your project is possible, or you don’t know how to achieve it in practice,
-                        you could be resolving technological uncertainties and be carrying out qualifying R&D.</p>
-
-                    <p>Within the government’s accepted research and development definition, R&D doesn’t have to have
-                        been successful to qualify. Further detail is available in our “RnDKoNecT Info page”.</p>
-
-                    <p><strong>What costs qualify for R&D tax credits?</strong></p>
-
-                    <ul>
-                        <li>Staff, including salaries, employer’s NIC, pension contributions and reimbursed expenses.
-                        </li>
-                        <li>Subcontractors and freelancers. Materials and consumables including heat, light and power
-                            that are used up or transformed by the R&D process.</li>
-                        <li>Some types of software.</li>
-                        <li>Payments to the subjects of clinical trials.</li>
-                    </ul>
-
-                    <p><strong>SME:</strong>
-                        Fewer than 500 staff and either not more than €100 million turnover or €86 million gross assets.
-                        Most companies, including start-ups, fall into this category.
-                    </p>
+                    <h2>What costs qualify for R&D tax credits?</h2>
 
                     <p>
-                        <strong>Large company:</strong> <br />
-                        500 staff or more and either more than €100 million turnover or €86 million gross assets.
-                        <br />
-                        SME R&D relief allows companies to:
-                    <ul>
-                        <li>deduct an extra 130% of their qualifying costs from their yearly profit, as well as the
-                            normal 100% deduction, to make a total 230% deduction</li>
-                        <li>claim a tax credit if the company is loss making, worth up to 14.5% of the surrenderable
-                            loss</li>
-                    </ul>
-                    <br />
-                    If you are classed as an SME for R&D tax credit purposes, your next step will be to make a claim via
-                    the SME R&D tax incentive. And if you are a large company, via the Research and Development
-                    Expenditure Credit (RDEC).
+                        The following costs qualify for R&D tax credits:
                     </p>
-
+                    <div className="about-area">
+                        <div className="about-content">
+                            <div class="col-sm-6">
+                                <div className="content">
+                                    <ul className="about-list mb-0">
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Permanent staff cost
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Salaries
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Employer’s NIC
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Pension contributions
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Reimbursed expenses
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Subcontractors and freelancers
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Materials and consumables
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            Software
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>What R&D tax credit incentive is right for my business?
+                    </h3>
                     <p>
-                        <strong>Research and Development Expenditure Credit:</strong> <br />
-                        This replaces the relief previously available under the large company scheme.
-                        <br />
-                        Large companies can claim a <a
-                            href="https://www.gov.uk/guidance/corporation-tax-research-and-development-tax-relief-for-large-companies">Research
-                            and Development Expenditure Credit (RDEC) for working on R&D projects.</a>
-
-                    <p>It can also be claimed by SMEs and large companies who have been subcontracted to do R&D work by
-                        a large company.
-
-                        <br />
-
-                        The RDEC is a tax credit, it was 11% of your qualifying R&D expenditure up to 31 December 2017
-                        <br />
-
-                    <ul>
-                        <li>12% from 1 January 2018 to 31 March 2020</li>
-                        <li>13% from 1 April 2020</li>
-
-                    </ul>
-
-
+                        The use of incentive for the creation of R&D claim will solely depend on whether you are an SME
+                        or RDEC.
                     </p>
-
-                    <p>However, there are a few factors such as grants and subcontracting that can restrict an SME from
-                        accessing the SME incentive. This means you may need to make a claim via RDEC – or via both
-                        incentives.</p>
-
-                    <p>We help SMEs across all sectors receive millions of pounds every month to re-invest back into
-                        their businesses. It is possible to make use of R&D tax credits and grant funding together by
-                        using both incentives to ensure maximum value. Our experts are on hand to assist your enquiries
-                        or via our “expert portal” facility when you registered with us and processing a claim.</p>
-
-
-
+                    <div className="about-area">
+                        <div className="about-content">
+                            <div class="col-sm-12">
+                                <div className="content">
+                                    <ul className="about-list mb-0">
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            If you are an SME, the staff you employee should range below 500 and the
+                                            gross
+                                            assets should range €86 million. Most of the R&D companies fall in this
+                                            group
+                                            including start-ups.
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            If you are an RDEC, the staff you employee is over 500 and the gross assets
+                                            should exceed €86 million
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>SME R&D relief</h3>
+                    <p>
+                        It allows companies to:
                     </p>
-
+                    <div className="about-area">
+                        <div className="about-content">
+                            <div class="col-sm-12">
+                                <div className="content">
+                                    <ul className="about-list mb-0">
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            deduct an extra 130% of their qualifying costs from their yearly profit, as
+                                            well
+                                            as the normal
+                                            100% deduction, to make a total 230% deduction
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            claim a tax credit if the company is in loss, worth up to 14.5% of the
+                                            surrender
+                                            able loss
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <p>
-                        <strong>How much is an R&D tax credit claim worth?</strong>
-
-
+                        If you are classed as an SME for R&D tax credit purposes, your next step will be to make a claim
+                        via the SME R&D tax incentive. And if you are a large company, via the Research and Development
+                        Expenditure Credit (RDEC).
                     </p>
-
+                    <h3>Research and Development Expenditure Credit</h3>
                     <p>
-                        R&D tax credits are calculated based on your R&D spend. To make an R&D credit calculation, you
-                        need to identify qualifying expenditure and enhance it by the relevant rate (see below).This
-                        produces your ‘enhanced expenditure’.
-                        <br />
-                        When you deduct your enhanced expenditure from your taxable profits, or add it to your loss, it
-                        will result in:
-                    <ul>
 
-
-
-
-
-
-                        <li>a Corporation Tax reduction if you are profit-making.</li>
-                        <li>a cash credit if you are loss-making.</li>
-                        <li>or a combination of the two.</li>
-                    </ul>
+                        Large companies can claim tax relief for the work they have done on R&D. It can be claimed both
+                        SMEs and Large companies who have been subcontracted to do R&D work.
                     </p>
-
                     <p>
-                        <strong>R&D tax credit rates</strong>
+                        The RDEC is a tax credit, it was 11% of your qualifying R&D expenditure up to 31 December 2017.
+                        It was increased to:
                     </p>
-                    <p>SMEs are able to claim up to 33p for every £1 spent on qualifying R&D activities. The average
-                        claim made by SMEs in the UK is £57,228 (2018-19).</p>
-                    <p>Large companies are able to claim up to 11p for every £1 spent on qualifying R&D activities. The
-                        average large company (RDEC) claim in the UK is £632,931 (2018-19).</p>
-                    <p>The R&D tax credit rates 2020 are show in the table opposite.</p>
-                    <p>Interested and want to find out how much you could claim, then try our summary calculator to get
-                        and idea. It might surprise you? What have to got to lose?</p>
+                    <div className="about-area">
+                        <div className="about-content">
+                            <div class="col-sm-12">
+                                <div className="content">
+                                    <ul className="about-list mb-0">
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            12% from 1 January 2018 to 31 March 2020
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            13% from 1 April 2020
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <p>
-                        <strong>The benefits of R&D tax credits</strong>
-                    <p>
-                        As a form of innovation funding, R&D tax credits can transform your business. At RnDKoNecT, we
-                        are passionate about helping innovative companies realise the full potential of R&D tax
-                        incentives so that they can grow. This is because the benefits are wide-reaching.</p>
-
-                    <p>
-                        The government benefits from increased productivity which is good news for UK businesses, and
-                        good news for the economy. It can also lead to innovation that can effect positive change on a
-                        global scale.</p>
+                        However, there are some limitations that can affect the incentive received by SMEs. In that case
+                        you will need to create the claim via RDEC or both incentives in order to receive tax relief.
                     </p>
+                    <h3>How much is an R&D tax credit claim worth?</h3>
+                    <p>
 
+                        R&D tax credits are calculated based on the R&D spend of your project. to calculate R&D credit
+                        for your claim you need to identify qualifying expenditure for the project.
+                    </p>
+                    <p>
+                        Your expenditure will lead to the following:
+                    </p>
+                    <div className="about-area">
+                        <div className="about-content">
+                            <div class="col-sm-6">
+                                <div className="content">
+                                    <ul className="about-list mb-0">
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            a Corporation Tax reduction if you are profit-making.
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            a cash credit if you are loss-making.
+                                        </li>
+                                        <li>
+                                            <i className="flaticon-tick"></i>
+                                            or a combination of the two.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>R&D tax credit rates</h3>
+                    <p>
+                        SMEs are able to claim up to 33p for every £1 spent on qualifying R&D activities. The average
+                        claim made by SMEs in the UK is £57,228 (2018-19).
+                    </p>
+                    <p>
+                        Large companies are able to claim up to 11p for every £1 spent on qualifying R&D activities. The
+                        average large company (RDEC) claim in the UK is £632,931 (2018-19).
+                    </p>
+                    <h3>The benefits of R&D tax credits</h3>
+                    <p>
+                        As a form of innovation funding, R&D tax credits can transform your business. At RnD Tax Claims,
+                        we are passionate about helping innovative companies realise the full potential of R&D tax
+                        incentives so that they can grow. This is because the benefits are wide-reaching.
+                    </p>
+                    <p>
+                        The government benefits from increased productivity which is good news for businesses based in
+                        UK, and good news for the economy. It can also lead to innovation that can effect positive
+                        change on a global scale.
+                    </p>
                 </div>
             </div>
         </div>

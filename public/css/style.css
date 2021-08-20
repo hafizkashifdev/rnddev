@@ -2293,10 +2293,6 @@ About Area CSS
   max-width: 1920px;
 }
 
-.about-content .content {
-  max-width: 585px;
-}
-
 .about-content .content .sub-title {
   position: relative;
   display: block;
@@ -2388,37 +2384,36 @@ About Area CSS
 }
 
 .about-content .content .about-list li {
-  width: 45%;
-  float: left;
+  width: 95%;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 30px;
   position: relative;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  padding: 20px 15px 20px 68px;
+  padding: 10px 10px 10px 55px;
   border-radius: 5px;
   z-index: 1;
   background-color: #ffffff;
-  font-size: 19px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .about-content .content .about-list li i {
   position: absolute;
-  left: 15px;
+  left: 10px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border-radius: 3px;
-  width: 40px;
-  height: 40px;
-  line-height: 41px;
+  width: 30px;
+  height: 30px;
+  line-height: 31px;
   text-align: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: #deecf4;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .about-content .content .about-list li img {
