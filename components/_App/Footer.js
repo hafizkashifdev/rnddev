@@ -33,21 +33,21 @@ return (
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://twitter.com/RnD_TaxClaims">
+                            <Link href="https://twitter.com/RnD__TaxClaims">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-twitter'></i>
                             </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.instagram.com/rnd89241/">
+                            <Link href="https://www.instagram.com/rnd_taxclaims/">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-instagram'></i>
                             </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.linkedin.com/company/rnd-tax-claims">
+                            <Link href="https://www.linkedin.com/company/rnd-tax-claims/">
                             <a className="d-block" target="_blank">
                                 <i className='bx bxl-linkedin'></i>
                             </a>

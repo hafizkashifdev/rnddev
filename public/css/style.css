@@ -129,6 +129,7 @@ a {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  font-weight: 700;
 }
 
 a:hover {
@@ -336,6 +337,11 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 12px;
+}
+
+.qr-code-width {
+  width: 150px;
+  height: 150px;
 }
 
 /*form-control*/
@@ -1994,7 +2000,7 @@ Main Banner Area CSS
 }
 
 .banner-wrapper-content .btn-box {
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .banner-wrapper-content .btn-box .default-btn {
@@ -12168,6 +12174,7 @@ Footer Area CSS
 
 .single-footer-widget .footer-contact-info li a {
   color: #6b6b84;
+  font-weight: 600;
   display: inline-block;
 }
 
