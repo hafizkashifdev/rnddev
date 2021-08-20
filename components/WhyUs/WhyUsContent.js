@@ -11,7 +11,7 @@ return (
             </div>
             <div className="col-lg-12">
                 <div className="privacy-policy-content pt-3">
-                    <img src="/img/why-us-rnd.png" alt="" />
+                    <img src="/img/why-us-rnd.png" alt="" style={{ width: 'fit-content' }} />
                 </div>
             </div>
             <div className="col-lg-6">

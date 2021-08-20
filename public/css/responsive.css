@@ -5,7 +5,10 @@
     width: 36% !important;
   }
   /* ################## */
-  .img-50-center {
+  .width-60-center img {
+    width: 100%;
+  }
+  .img-50-center img {
     width: 100%;
   }
   .navbar-brand img {
@@ -2423,6 +2426,12 @@
 
 /* Min width 768px to Max width 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .width-60-center img {
+    width: 100%;
+  }
+  .img-50-center img {
+    width: 100%;
+  }
   .navbar-brand img {
     width: 100px;
   }

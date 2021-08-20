@@ -212,12 +212,17 @@ a {
 
 // img-50-center
 .width-60-center {
-  width: 80%;
+  img {
+    width: 80%;
+  }
   margin-left: auto;
   margin-right: auto;
 }
 .img-50-center {
-  width: 40%;
+  img {
+    width: 40%;
+  }
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -2140,7 +2145,6 @@ About Area CSS
 }
 .about-content {
   .content {
-
     .sub-title {
       position: relative;
       display: block;

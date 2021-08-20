@@ -20,8 +20,15 @@ $value_nine: 1550px;
   /* ################## */
 
   // img-50-center
+  .width-60-center {
+    img {
+      width: 100%;
+    }
+  }
   .img-50-center {
-    width: 100%;
+    img {
+      width: 100%;
+    }
   }
   // img-50-center
   .navbar-brand {
@@ -3204,6 +3211,18 @@ $value_nine: 1550px;
 
 /* Min width 768px to Max width 991px */
 @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
+  // img-50-center
+  .width-60-center {
+    img {
+      width: 100%;
+    }
+  }
+  .img-50-center {
+    img {
+      width: 100%;
+    }
+  }
+  // img-50-center
   .navbar-brand {
     img {
       width: 100px;

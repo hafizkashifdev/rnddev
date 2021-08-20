@@ -212,15 +212,21 @@ a:hover {
 
 /* ################## */
 .width-60-center {
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
+.width-60-center img {
+  width: 80%;
+}
+
 .img-50-center {
-  width: 40%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.img-50-center img {
+  width: 40%;
 }
 
 /*default-btn*/
