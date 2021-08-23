@@ -34,7 +34,7 @@ return (
                     <p> To get R&D relief your project needs to fulfill the following parameters:</p>
                     <div className="about-area">
                         <div className="about-content">
-                            <div class="col-sm-6">
+                            <div class="col-lg-6 col-sm-12">
                                 <div className="content">
                                     <ul className="about-list mb-0">
                                         <li>
@@ -116,7 +116,7 @@ return (
 
                     <div className="about-area">
                         <div className="about-content">
-                            <div class="col-sm-6">
+                            <div class="col-lg-6 col-sm-12">
                                 <div className="content">
                                     <ul className="about-list mb-0">
                                         <li>
@@ -149,7 +149,7 @@ return (
                     </p>
                     <div className="about-area">
                         <div className="about-content">
-                            <div class="col-sm-6">
+                            <div class="col-lg-6 col-sm-12">
                                 <div className="content">
                                     <ul className="about-list mb-0">
                                         <li>
@@ -262,7 +262,7 @@ return (
                     </p>
                     <div className="about-area">
                         <div className="about-content">
-                            <div class="col-sm-12">
+                            <div class="col-lg-6 col-sm-12">
                                 <div className="content">
                                     <ul className="about-list mb-0">
                                         <li>
@@ -293,7 +293,7 @@ return (
                     </p>
                     <div className="about-area">
                         <div className="about-content">
-                            <div class="col-sm-6">
+                            <div class="col-lg-6 col-sm-12">
                                 <div className="content">
                                     <ul className="about-list mb-0">
                                         <li>

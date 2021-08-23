@@ -13,6 +13,14 @@ $value_nine: 1550px;
 
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_two) {
+  // .features-list
+  .features-list{
+    padding{
+      left: 15px;
+      right: 15px;
+    };
+  }
+  // .features-list
   /* Country code dropdown and phone number in Contact Us and Register Your Interest Forms*/
   .react-tel-input {
     width: 36% !important;
@@ -692,6 +700,10 @@ $value_nine: 1550px;
       }
       .about-list {
         text-align: left;
+        padding:{
+          left: 15px;
+          right: 15px;
+        };
 
         li {
           width: 100%;
