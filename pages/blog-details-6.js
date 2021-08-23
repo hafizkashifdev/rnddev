@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import BlogDetailsContent from '../components/Blog/BlogDetailsContentTwo';
+import BlogDetailsContent from '../components/Blog/BlogDetailsContentSix';
 import Footer from '../components/_App/Footer';
 
 const BlogDetails = () => {
@@ -10,7 +10,7 @@ const BlogDetails = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Blog Details" 
+                pageTitle="Coming Soon : Claim calculator Bot" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Blog Details" 

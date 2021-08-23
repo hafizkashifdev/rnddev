@@ -18,6 +18,13 @@ $value_nine: 1550px;
     width: 36% !important;
   }
   /* ################## */
+  // max-character-width
+  .post-author {
+    .max-character-width-50 {
+      width: 130px;
+    }
+  }
+  // max-character-width
 
   // img-50-center
   .width-60-center {
@@ -3211,6 +3218,23 @@ $value_nine: 1550px;
 
 /* Min width 768px to Max width 991px */
 @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
+  // footer
+  .footer-bottom-area {
+    ul {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  // footer
+  // max-character-width
+  .post-author {
+    .max-character-width-50 {
+      width: 120px;
+    }
+  }
+  // max-character-width
   // img-50-center
   .width-60-center {
     img {

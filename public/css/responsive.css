@@ -5,6 +5,9 @@
     width: 36% !important;
   }
   /* ################## */
+  .post-author .max-character-width-50 {
+    width: 130px;
+  }
   .width-60-center img {
     width: 100%;
   }
@@ -2426,6 +2429,15 @@
 
 /* Min width 768px to Max width 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-bottom-area ul {
+    text-align: center;
+  }
+  .footer-bottom-area p {
+    text-align: center;
+  }
+  .post-author .max-character-width-50 {
+    width: 120px;
+  }
   .width-60-center img {
     width: 100%;
   }

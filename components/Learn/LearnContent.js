@@ -21,7 +21,7 @@ return (
                         </p>
                     </blockquote>
                     <div className="img-50-center">
-                        <img src="/img/learn-rnd.jpg" alt="image" />
+                        <img src="/img/learn-rnd.jpg" alt="image" style={{ width: 'fit-content'}} />
                     </div>
                     <h2>Projects that count as R&D</h2>
                     <p>

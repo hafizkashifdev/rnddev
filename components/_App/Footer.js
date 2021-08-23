@@ -93,13 +93,13 @@ return (
 
         <div className="footer-bottom-area">
             <div className="row align-items-center">
-                <div className="col-lg-6 col-md-6">
+                <div className="col-lg-6 col-md-12">
                     <p>Copyright &copy;{currentYear} All rights reserved by <strong> <a
                                 href="http://rndtaxclaims.co.uk">RnDTaxClaims (Kalculator Limited)</a>
                         </strong></p>
                 </div>
 
-                <div className="col-lg-6 col-md-6">
+                <div className="col-lg-6 col-md-12">
                     <ul>
                         <li>
                             <Link href="/cookie-policy">

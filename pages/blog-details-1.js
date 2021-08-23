@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import BlogDetailsContent from '../components/Blog/BlogDetailsContentThree';
+import BlogDetailsContent from '../components/Blog/BlogDetailsContent';
 import Footer from '../components/_App/Footer';
 
 const BlogDetails = () => {
@@ -10,7 +10,7 @@ const BlogDetails = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Blog Details" 
+                pageTitle="Understanding R&D Tax Credits" 
                 homePageText="Home" 
                 homePageUrl="/" 
                 activePageText="Blog Details" 

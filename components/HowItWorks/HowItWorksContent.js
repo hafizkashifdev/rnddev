@@ -16,6 +16,7 @@ return (
                     <div className="about-area">
                         <div className="about-content">
                             <div class="row mt-3">
+                                
                                 <div class="col-md-12 col-sm-6">
                                     <div class="row">
                                         <div class="col-sm-6">
@@ -69,8 +70,8 @@ return (
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-6">
-                                    <div className="width-60-center">
-                                        <img src="/img/how-its-work.png" alt=""  />
+                                    <div className="text-center">
+                                        <img src="/img/how-its-work.png" alt="" style={{ width : 'fit-content' }} />
                                     </div>
                                 </div>
                             </div>
@@ -79,8 +80,8 @@ return (
 
 
                     <h3>Submit the claims to HMRC</h3>
-                    <div class="width-60-center">
-                        <img src="/img/How-it-works-two.png" alt="" />
+                    <div class="text-center">
+                        <img src="/img/How-it-works-two.png" alt="" alt="" style={{ width : 'fit-content' }} />
                     </div>
                 </div>
             </div>

@@ -200,6 +200,20 @@ a:hover {
   vertical-align: baseline;
 }
 
+.post-author .max-character-width-50 {
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.max-character-width-100 a {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* Country code dropdown and phone number in Contact Us and Register Your Interest Forms*/
 .react-tel-input {
   width: 23% !important;
@@ -9185,6 +9199,7 @@ Blog Area CSS
 }
 
 .single-blog-post .post-content .post-meta li .post-author span {
+  display: block;
   font-weight: 600;
   font-size: 15px;
 }
