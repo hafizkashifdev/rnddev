@@ -200,6 +200,21 @@ a {
   vertical-align: baseline;
 }
 
+// li-in-li
+.li-in-li {
+  padding: {
+    right: 30px;
+    left: 70px;
+    top: 10px
+  };
+  margin-bottom: 0px!important;
+
+  .bx-badge-check {
+    color: $main-color;
+  }
+}
+// li-in-li
+
 // max-character-width
 .post-author {
   .max-character-width-50 {
@@ -2245,6 +2260,7 @@ About Area CSS
     .about-list {
       padding-left: 0;
       padding-bottom: 7px;
+      padding-right: 30px;
       list-style-type: none;
       overflow: hidden;
       margin: {
@@ -2259,7 +2275,7 @@ About Area CSS
           left: 15px;
           right: 15px;
         }
-        margin-top: 25px;
+        margin-top: 20px;
         position: relative;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
         padding: 10px 10px 10px 55px;
@@ -2717,7 +2733,6 @@ Boxes Area CSS
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.09);
   }
 }
-
 
 .vector-shape9 {
   position: absolute;
