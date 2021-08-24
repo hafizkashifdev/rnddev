@@ -6,7 +6,7 @@ const BlogCard = () => {
       const [blogposts, setblogposts] = useState()
        // This logic is only erxecute when the component is mounted
        useEffect( async ()=>{
-           const res = await fetch(`${airtablemicrourl}/blog/fosterappbloglisting`, {
+           const res = await fetch(`${airtablemicrourl}/blog/Randbloglistng`, {
                method: "POST"
            });
            const data = await res.json();
