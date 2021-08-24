@@ -2902,14 +2902,6 @@ Boxes Area CSS
           box-shadow: 0 0 25px rgba(0, 0, 0, 0.09);
 }
 
-.col-lg-4:nth-child(2) .single-boxes-item .shape1 {
-  bottom: auto;
-  top: 0;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  right: -5px;
-}
-
 .vector-shape9 {
   position: absolute;
   left: 0;

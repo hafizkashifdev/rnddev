@@ -151,7 +151,7 @@ const RegisterYourInterestsForm = () => {
 
                                      <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
-                                            <label><input type="checkbox" required /> By submitting the form you accept <Link href='/terms-and-conditions/'><a>Terms & Conditions</a></Link> and <Link href='/privacy-policy/'><a>Privacy Policy</a></Link></label>
+                                            <label>By submitting the form you accept <Link href='/terms-and-conditions/'><a>Terms & Conditions</a></Link> and <Link href='/privacy-policy/'><a>Privacy Policy</a></Link></label>
                                         </div>
                                     </div>
                                     <div className="col-lg-12 col-md-12">
