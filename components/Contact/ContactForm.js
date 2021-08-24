@@ -148,7 +148,7 @@ const ContactForm = () => {
                                             <textarea name="message" id="message" className="form-control" cols="30" rows="6" placeholder="Write your message... *" required maxLength="2000"></textarea>
                                         </div>
                                     </div>
-                                     <div className="col-lg-12 col-md-6">
+                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
                                             <label><input type="checkbox" required /> By submitting the form you accept <Link href='/terms-and-conditions/'><a>Terms & Conditions</a></Link> and <Link href='/privacy-policy/'><a>Privacy Policy</a></Link></label>
                                         </div>
