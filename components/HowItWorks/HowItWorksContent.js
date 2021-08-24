@@ -81,7 +81,7 @@ return (
 
                     <h3>Submit the claims to HMRC</h3>
                     <div class="text-center">
-                        <img src="/img/How-it-works-two.png" alt="" alt="" style={{ width : 'fit-content' }} />
+                        <img src="/img/How-it-works-two.png" alt=""  />
                     </div>
                 </div>
             </div>
