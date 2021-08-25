@@ -11568,7 +11568,7 @@ Privacy Policy Area CSS
 .privacy-policy-content blockquote {
   margin-bottom: 30px;
   background-color: #e6f2f5;
-  text-align: left !important;
+  text-align: justify !important;
   padding: 25px !important;
 }
 

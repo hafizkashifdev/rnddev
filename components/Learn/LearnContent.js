@@ -229,14 +229,14 @@ return (
                                     <ul className="about-list mb-0">
                                         <li>
                                             <i className="flaticon-tick"></i>
-                                            deduct an extra 130% of their qualifying costs from their yearly profit, as
+                                            Deduct an extra 130% of their qualifying costs from their yearly profit, as
                                             well
                                             as the normal
                                             100% deduction, to make a total 230% deduction
                                         </li>
                                         <li>
                                             <i className="flaticon-tick"></i>
-                                            claim a tax credit if the company is in loss, worth up to 14.5% of the
+                                            Claim a tax credit if the company is in loss, worth up to 14.5% of the
                                             surrender
                                             able loss
                                         </li>
