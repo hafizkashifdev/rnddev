@@ -298,15 +298,15 @@ return (
                                     <ul className="about-list mb-0">
                                         <li>
                                             <i className="flaticon-tick"></i>
-                                            a Corporation Tax reduction if you are profit-making.
+                                            A Corporation Tax reduction if you are profit-making.
                                         </li>
                                         <li>
                                             <i className="flaticon-tick"></i>
-                                            a cash credit if you are loss-making.
+                                            A cash credit if you are loss-making.
                                         </li>
                                         <li>
                                             <i className="flaticon-tick"></i>
-                                            or a combination of the two.
+                                            Or a combination of the two.
                                         </li>
                                     </ul>
                                 </div>
