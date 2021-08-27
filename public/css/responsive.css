@@ -379,7 +379,7 @@
     display: inline-block;
   }
   .banner-wrapper-image {
-    margin-top: 55px;
+    margin-top: 0px;
   }
   .banner-area-content {
     max-width: 100%;
@@ -2206,6 +2206,9 @@
     margin-top: 30px;
     text-align: center;
   }
+  .footer-bottom-area p a {
+    display: block;
+  }
   .footer-bottom-area ul {
     text-align: center;
     margin-top: 10px;
@@ -2241,8 +2244,8 @@
     padding-bottom: 80px;
   }
   .digital-agency-banner {
-    padding-top: 100px;
-    padding-bottom: 85px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .single-pricing-box .pricing-header h3 {
     font-size: 20px;
@@ -2712,7 +2715,7 @@
     display: inline-block;
   }
   .banner-wrapper-image {
-    margin-top: 55px;
+    margin-top: 3px;
   }
   .main-banner-area {
     padding-top: 200px;

@@ -14,11 +14,11 @@ $value_nine: 1550px;
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_two) {
   // .features-list
-  .features-list{
-    padding{
+  .features-list {
+    padding {
       left: 15px;
       right: 15px;
-    };
+    }
   }
   // .features-list
   /* Country code dropdown and phone number in Contact Us and Register Your Interest Forms*/
@@ -522,7 +522,7 @@ $value_nine: 1550px;
     }
   }
   .banner-wrapper-image {
-    margin-top: 55px;
+    margin-top: 0px;
   }
   .banner-area-content {
     max-width: 100%;
@@ -700,10 +700,10 @@ $value_nine: 1550px;
       }
       .about-list {
         text-align: left;
-        padding:{
+        padding: {
           left: 15px;
           right: 15px;
-        };
+        }
 
         li {
           width: 100%;
@@ -2938,6 +2938,12 @@ $value_nine: 1550px;
     margin-top: 30px;
     text-align: center;
 
+    p{
+      a{
+        display: block;
+      }
+    }
+
     ul {
       text-align: center;
       margin-top: 10px;
@@ -2984,8 +2990,8 @@ $value_nine: 1550px;
   }
   .digital-agency-banner {
     padding: {
-      top: 100px;
-      bottom: 85px;
+      top: 40px;
+      bottom: 40px;
     }
   }
 
@@ -3630,7 +3636,7 @@ $value_nine: 1550px;
     }
   }
   .banner-wrapper-image {
-    margin-top: 55px;
+    margin-top: 3px;
   }
   .main-banner-area {
     padding-top: 200px;
@@ -4793,7 +4799,7 @@ $value_nine: 1550px;
   }
 
   .privacy-policy-content {
-    img{
+    img {
       width: 100%;
     }
     h3 {
