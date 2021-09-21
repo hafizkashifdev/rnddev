@@ -1,6 +1,8 @@
-export const mondaymicrourl = 'https://59vdwfeu91.execute-api.eu-west-2.amazonaws.com/UAT'
-export const airtablemicrourl = 'https://nr8x0snfd2.execute-api.eu-west-2.amazonaws.com/UAT'
-export const twilliotablemicrourl = 'https://a6fek3sduj.execute-api.eu-west-2.amazonaws.com/UAT'
+export const airtableRoiLambdaurl = 'https://nr8x0snfd2.execute-api.eu-west-2.amazonaws.com/UAT'
+export const airtableCUsLambdaurl = 'https://nr8x0snfd2.execute-api.eu-west-2.amazonaws.com/UAT'
+export const twillioLambdaurl = 'https://a6fek3sduj.execute-api.eu-west-2.amazonaws.com/UAT'
+export const mondayCUSLambdaurl = 'https://59vdwfeu91.execute-api.eu-west-2.amazonaws.com/UAT'
+export const mondayRoiLambdaurl = 'https://59vdwfeu91.execute-api.eu-west-2.amazonaws.com/UAT'
 export const emailhtml = (title, first_name, last_name, team) => {
     return `Hello ${title}  ${first_name} ${last_name} <br>
     Thanks for contacting us, Our customer relationship officer will get back to you shortly.<br>
