@@ -11,7 +11,7 @@ return (
                     <img src="/img/terms-and-conditions.png" alt="image" />
                     <p>These Terms and Conditions, together with any and all other documents referred to herein, set out
                         the terms of use under which you may use this website,
-                        <strong> <a href="http://rndtaxclaims.co.uk/">RnD Tax Claims</a></strong>. Please read these
+                        <strong> <a href="http://REHMAN MICHAEL (ACCOUNTANTS) LIMITED .co.uk/">RnD Tax Claims</a></strong>. Please read these
                         Terms and Conditions carefully
                         and ensure that you understand them. Your agreement to comply with and be bound by these Terms
                         and Conditions is deemed to occur upon your first use of Our Site. If you do not agree to comply
@@ -95,7 +95,7 @@ return (
                         <li>Our Site is owned and operated by Us</li>
                         <li>
                             Our Data Protection Officer can be contacted by email, or by post at 
-                            <a href="contact-us@rndtaxclaims.co.uk">contact-us@rndtaxclaims.co.uk</a>
+                            <a href="anwar@rehman-michael.com">anwar@rehman-michael.com</a>
                         </li>
                     </ul>
                     <h3>3. Access to Our Site</h3>

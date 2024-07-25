@@ -16,9 +16,10 @@ const RegisterYourInterestsInfo = () => {
                             </div>
                             <h3>Our Address</h3>
                              <p>
-                            <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA" target="_blank">
-                                Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, <br />
-                                Uxbridge, UB11 1AF<br /> United Kingdom
+                            <a href="https://www.google.com/maps/place/Rehman+Michael+%26+Co/@53.8174939,-1.519191,17z/data=!3m1!4b1!4m6!3m5!1s0x48795b89087fc309:0x9205d52db35d47af!8m2!3d53.8174908!4d-1.5166161!16s%2Fg%2F1tf6lqs1?entry=ttu" target="_blank">
+                                Rehman Michael & Co
+277 Roundhay Rd
+Harehills, Leeds LS8 4HS
                             </a>
                         </p>
                         </div>
@@ -33,8 +34,8 @@ const RegisterYourInterestsInfo = () => {
                                 <i className='bx bx-phone-call'></i>
                             </div>
                             <h3>Contact</h3>
-                           <p>Mobile: <a href="tel:+4447500287504">(+44) - 750028 - 7504</a></p>
-                    <p>E-mail: <a href="mailto:contact-us@rndtaxclaims.co.uk">contact-us@rndtaxclaims.co.uk</a></p> 
+                           <p>Mobile: <a href="tel:+4447500287504">+44 (0)113 248 5664</a></p>
+                    <p>E-mail: <a href="mailto:anwar@rehman-michael.com">anwar@rehman-michael.com</a></p> 
                         </div>
                     </div>
  
@@ -46,8 +47,7 @@ const RegisterYourInterestsInfo = () => {
                             <div className="icon">
                                 <i className='bx bx-time-five'></i>
                             </div>
-                            <h3>Hours of Operation</h3>
-                            <p>Monday - Friday: 09:00 AM - 05:00 PM</p>
+                           
                         </div>
                     </div>
                 </div>

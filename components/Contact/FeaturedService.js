@@ -35,7 +35,7 @@ return (
                         <img src="/img/icons/chat.png" alt="image" />
                     </div>
                     <h3>
-                        <a href="https://api.whatsapp.com/send?I=nl&phone=+4407500287504&text=Hi+Customer+relationship+officer+%2C+I+am+interested+in+RnDTaxClaims+and+...."
+                        <a href="https://api.whatsapp.com/send?I=nl&phone=+4407500287504&text=Hi+Customer+relationship+officer+%2C+I+am+interested+in+REHMAN MICHAEL (ACCOUNTANTS) LIMITED +and+...."
                             target="_blank">
                             <a>Chat With Us</a>
                         </a>
@@ -43,7 +43,7 @@ return (
                     <p className="text-center" style={{ marginBottom: '45px' }}>
                         Want to chat with us? <br />
                         You can <a
-                            href="https://api.whatsapp.com/send?I=nl&phone=+4407500287504&text=Hi+Customer+relationship+officer+%2C+I+am+interested+in+RnDTaxClaims+and+...."
+                            href="https://api.whatsapp.com/send?I=nl&phone=+4407500287504&text=Hi+Customer+relationship+officer+%2C+I+am+interested+in+REHMAN MICHAEL (ACCOUNTANTS) LIMITED +and+...."
                             target="_blank" style={{ color: '#25D366' }}>chat with us</a> <br />
                         from Monday - Friday: <br /> 09:00 AM - 05:00 PM
                     </p>
@@ -66,7 +66,7 @@ return (
                         Want to talk to us over <br />
                         the phone about specific <br />
                         questions? You can call us at <br />
-                        <a href="tel:+447500287504" style={{ color: '#25D366' }}> (+44) - 750028 - 7504</a> from Monday
+                        <a href="tel:+447500287504" style={{ color: '#25D366' }}> +44 (0)113 248 5664</a> from Monday
                         - Friday: 09:00 AM - 05:00 PM
                     </p>
                     <div className="shape1">
@@ -131,7 +131,7 @@ return (
                         <img src="/img/icons/whatsapp.png" alt="image" />
                     </div>
                     <h3>
-                        <a href="https://api.whatsapp.com/send?I=nl&phone=+4407500287504&text=Hi+Customer+relationship+officer+%2C+I+am+interested+in+RnDTaxClaims+and+...."
+                        <a href="https://api.whatsapp.com/send?I=nl&phone=+4407500287504&text=Hi+Customer+relationship+officer+%2C+I+am+interested+in+REHMAN MICHAEL (ACCOUNTANTS) LIMITED +and+...."
                             target="_blank">
                             <a>WhatsApp</a>
                         </a>

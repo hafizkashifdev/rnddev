@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from "axios";
 import CountryInfo from "./CountryCode";
-import { phone_number_info } from '../../constants/constant';
+import { phoneNumber_info } from '../../constants/constant';
 import ErrorInfo from "./ErrorInfo";
 import SuccessInfo from "./SuccessInfo";
 import Link from "next/link";
@@ -12,40 +12,40 @@ const ContactForm = () => {
 
      const registerUser = async event => {
          event.preventDefault()
-         const countryCode = phone_number_info.country.iso2.toUpperCase();
-         const phoneNumber = event.target.phone_number.value;
+         const countryCode = phoneNumber_info.country.iso2.toUpperCase();
+         const phoneNumber = event.target.phoneNumber.value;
          axios.all([
              axios.post(`${ mondayCUSLambdaurl }/C-US-SaleSiteRoute-monday`, {
                  Title: event.target.title.value,
-                 FirstName: event.target.firstname.value,
-                 LastName: event.target.lastname.value,
+                 name: event.target.name.value,
+                 //LastName: event.target.lastname.value,
                  Company: event.target.company.value,
                  CompanyDesignation: event.target.companydesignation.value,
                  Phone: phoneNumber,
                  PhoneShortCode: countryCode,
                  Email: event.target.email.value,
-                 Comments: event.target.message.value,
+                 Comments: event.target.query.value,
                  board: ContactBoardId
              }),
              axios.post(`${ airtableCUsLambdaurl }/airtableContactUs`, {
                  Title: event.target.title.value,
-                 FirstName: event.target.firstname.value,
-                 LastName: event.target.lastname.value,
+                 name: event.target.name.value,
+                 //LastName: event.target.lastname.value,
                  Company: event.target.company.value,
                  CompanyDesignation: event.target.companydesignation.value,
                  Phone: countryCode + "" + phoneNumber,
                  Email: event.target.email.value,
-                 Comments: event.target.message.value,
+                 Comments: event.target.query.value,
                  base: AirTableBase,
                  table: contactUstable,
                  type:"RND"
              }),
              axios.post(`${ twillioLambdaurl }/twillioEmailLambda`, {
                  to: event.target.email.value,
-                 from: "contact-us@rndtaxclaims.co.uk",
+                 from: "anwar@rehman-michael.com",
                  subject: emailtitle('RnD Tax Claims'),
                  text: emailtitle('RnD Tax Claims'),
-                 html: emailhtml(event.target.title.value, event.target.firstname.value, event.target.lastname.value, 'RnD Tax Claims')
+                 html: emailhtml(event.target.title.value, event.target.name.value, event.target.lastname.value, 'RnD Tax Claims')
              })
          ]).then(([MonRes, AirRes, TwilioRes]) => {
              setresponse('sucess')
@@ -106,7 +106,7 @@ const ContactForm = () => {
                                     </div>
                                     <div className="col-lg-12 col-md-6">
                                         <div className="form-group">
-                                            <input type="text" name="firstname" className="form-control" id="firstname" 
+                                            <input type="text" name="name" className="form-control" id="name" 
                                             placeholder="First Name *" required maxLength="100" 
                                              pattern="^[a-zA-Z ]+$"
                                              title="First Name is invalid. Only alphabets are allowed."/>
@@ -134,7 +134,7 @@ const ContactForm = () => {
                                     <div className="input-group col-lg-12 col-md-12 form-group">
                                         <CountryInfo />
                                         <span className="input-group-addon">&nbsp;&nbsp;</span>
-                                        <input type="tel" name="phone_number" className="form-control" id="phone_number"
+                                        <input type="tel" name="phoneNumber" className="form-control" id="phoneNumber"
                                         placeholder="Phone *" required
                                             pattern="[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}"
                                             title="Phone Number is invalid" />
@@ -156,8 +156,8 @@ const ContactForm = () => {
 
                                     <div className="col-lg-12 col-md-12">
                                         <div className="form-group">
-                                            <textarea name="message" id="message" className="form-control" cols="30" rows="6"
-                                            placeholder="Write your message... *" required maxLength="2000"></textarea>
+                                            <textarea name="query" id="query" className="form-control" cols="30" rows="6"
+                                            placeholder="Write your query... *" required maxLength="2000"></textarea>
                                         </div>
                                     </div>
                                      <div className="col-lg-12 col-md-12">
@@ -169,7 +169,7 @@ const ContactForm = () => {
                                     <div className="col-lg-12 col-md-12">
                                         <button type="submit" className="default-btn">
                                             <i className="flaticon-tick"></i>
-                                            Send Message <span></span>
+                                            Send query <span></span>
                                         </button>
                                     </div>
                                 </div>

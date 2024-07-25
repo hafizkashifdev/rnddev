@@ -17,8 +17,9 @@ return (
                         <h3>Our Address</h3>
                         <p>
                             <a href="https://goo.gl/maps/GrZksuyEGiJMuu9aA" target="_blank">
-                                Office 77, Spaces Heathrow Airport, 4 Roundwood Avenue, Stockley Park, <br />
-                                Uxbridge, UB11 1AF<br /> United Kingdom
+                                Rehman Michael & Co
+277 Roundhay Rd
+Harehills, Leeds LS8 4HS
                             </a>
                         </p>
                     </div>
@@ -34,8 +35,8 @@ return (
                         <i className='bx bx-phone-call'></i>
                     </div>
                     <h3>Contact</h3>
-                    <p>Mobile: <a href="tel:+4447500287504">(+44) - 750028 - 7504</a></p>
-                    <p>E-mail: <a href="mailto:contact-us@rndtaxclaims.co.uk">contact-us@rndtaxclaims.co.uk</a></p>
+                    <p>Mobile: <a href="tel:+4447500287504">+44 (0)113 248 5664</a></p>
+                    <p>E-mail: <a href="mailto:anwar@rehman-michael.com">anwar@rehman-michael.com</a></p>
                 </div>
             </div>
 

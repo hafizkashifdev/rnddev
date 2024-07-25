@@ -84,7 +84,7 @@ return (
                         websites.</p>
                     <h3>8. Our details</h3>
                     <p>8.1 This website is owned and operated by RnD Tax Claims.</p>
-                    <p>8.2 We are registered in England and Wales under registration number 13445423.</p>
+                    <p>8.2 We are registered in England and Wales under registration number 07537744</p>
                 </div>
             </div>
 

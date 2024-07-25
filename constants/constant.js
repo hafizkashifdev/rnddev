@@ -1,20 +1,3 @@
-export const airtableRoiLambdaurl = 'https://nr8x0snfd2.execute-api.eu-west-2.amazonaws.com/UAT'
-export const airtableCUsLambdaurl = 'https://nr8x0snfd2.execute-api.eu-west-2.amazonaws.com/UAT'
-export const twillioLambdaurl = 'https://a6fek3sduj.execute-api.eu-west-2.amazonaws.com/UAT'
-export const mondayCUSLambdaurl = 'https://59vdwfeu91.execute-api.eu-west-2.amazonaws.com/UAT'
-export const mondayRoiLambdaurl = 'https://59vdwfeu91.execute-api.eu-west-2.amazonaws.com/UAT'
-export const emailhtml = (title, first_name, last_name, team) => {
-    return `Hello ${title}  ${first_name} ${last_name} <br>
-    Thanks for contacting us, Our customer relationship officer will get back to you shortly.<br>
-    Regards <br>
-    Team ${team}`
-}
-export const emailtitle = (appname) => {
-    return `Thanks for contacting us from ${appname}`
-}
-export const ContactBoardId = 1377220002
-export const RYIBoardId = 1377220525
-export const AirTableBase = 'appPG7AJz7x2TTWT8'
-export const contactUstable = "Contact Us"
-export const RYItable = "Register Your Interest"
-export const phone_number_info = {}
+// constants.js
+export const API_BASE_URL = process.env.NEXT_PUBLIC_AAC_APP_BASE_URL || 'https://gateway-stg.airapplecart.co.uk/';
+export const API_KEY = process.env.NEXT_PUBLIC_X_ACC_API_KEY || '87b332b7b24e79c2f7d2014e56ff4902:0dd99cf0c4550560af70c84d74cb550d1b817c3281217413b66877d01d9b51e0dcedf3f74fc10f3e11d4f1db496d4fedc1e436b24b3905bd5d15f69d2e078491bb9e7416fcb81c0c058d8b2c5cbb6e6d0028893e00d852145d0183454c00c290';

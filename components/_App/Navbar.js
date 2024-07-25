@@ -90,11 +90,11 @@ const Navbar = () => {
                                         </Link>
                                     </li>
 
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link href="/blog" activeClassName="active">
                                             <a onClick={() => setCollapsed(true)} className="nav-link">Blog</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
 
                                     <li className="nav-item">
                                         <Link href="/register-your-interests" activeClassName="active">
@@ -108,9 +108,9 @@ const Navbar = () => {
 
 
                                     <div className="option-item">
-                                        <Link href="/contact">
+                                        <Link href="https://app-dev.rndtaxclaims.uk/signIn">
                                             <a onClick={() => setCollapsed(true)} className="default-btn">
-                                                <i className="flaticon-right"></i> Contact us <span></span>
+                                                <i className="flaticon-right"></i> Sign In <span></span>
                                             </a>
                                         </Link>
                                     </div>

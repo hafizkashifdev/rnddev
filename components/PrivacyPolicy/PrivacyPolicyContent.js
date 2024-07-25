@@ -41,7 +41,7 @@ return (
                                 </td>
                                 <td>
                                     <p><strong> <a
-                                                href="contact-us@rndtaxclaims.co.uk">contact-us@rndtaxclaims.co.uk</a></strong>
+                                                href="anwar@rehman-michael.com">anwar@rehman-michael.com</a></strong>
                                     </p>
                                 </td>
                             </tr>
