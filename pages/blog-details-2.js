@@ -1,13 +1,13 @@
-import React from 'react';
-import Navbar from '../components/_App/Navbar';
-import PageBanner from '../components/Common/PageBanner';
-import BlogDetailsContent from '../components/Blog/BlogDetailsContentTwo';
-import Footer from '../components/_App/Footer';
+// import React from 'react';
+// import Navbar from '../components/_App/Navbar';
+// import PageBanner from '../components/Common/PageBanner';
+// import BlogDetailsContent from '../components/Blog/BlogDetailsContentTwo';
+// import Footer from '../components/_App/Footer';
 
 const BlogDetails = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar />
 
             <PageBanner
                 pageTitle="Identify your R&D expense" 
@@ -18,7 +18,7 @@ const BlogDetails = () => {
 
             <BlogDetailsContent />
             
-            <Footer />
+            <Footer /> */}
         </>
     )
 }
